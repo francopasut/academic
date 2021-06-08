@@ -71,7 +71,7 @@ user_groups:
 ---
 Welcome to the _"Domus Verborum"_ (home of words) of F.P.
 
-I only write to keep my mind active and to leave some tracks.
+I only write to keep my mind active and to practise editing with Vim and Emacs.
 
 If someone will find something interesting among my writings I will be pleased. 
 

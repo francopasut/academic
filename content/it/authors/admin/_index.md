@@ -69,9 +69,9 @@ user_groups:
 - Researchers
 - Visitors
 ---
-Benvenuti nella _"Domus Verborum" di F.P.
+Benvenuti nella _"Domus Verborum"_ di F.P.
 
-Scrivo per allenare la mente e per lasciare qualche traccia.
+Scrivo soltanto per allenare la mente e per fare pratica di _editing_ con Vim ed Emacs.
 
 Se qualcuno troverà qualcosa di interessante tra i miei scritti mi farà piacere. 
 

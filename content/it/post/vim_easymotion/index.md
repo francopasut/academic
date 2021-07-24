@@ -115,11 +115,11 @@ Qualche immagine può essere molto utile.
 
 Nella prima immmagine potete osservare il risultato di una ricerca di singolo carattere con il comando seguente: `\f + <one letter>` ("\\" è la cosiddetta lettera _\<Leader\>_ di base).
 
-Nell'esempio seguente ho utilizzato la ricerca della lettera "o".
+Nell'esempio seguente ho effettuato la ricerca della lettera "o".
 
 ![Figura 1](/img/barra-f.png "Esempio di ricerca con  *Leader*-f")
 
-Nel secondo esempio ho utilizzato una ricerca a doppio carattere con il comando `\s + <two letters>` puntato sulle lettere *qu*: le lettere bersaglio sono molto meno numerose.
+Nel secondo esempio ho utilizzato una ricerca a doppio carattere con il comando `\s + <two letters>` riferito alle lettere *qu*:
 
 ![Figura 2](/img/barra-s.png "Esempio di riserca con  *Leader*-s")
 
@@ -127,13 +127,11 @@ Nel secondo esempio ho utilizzato una ricerca a doppio carattere con il comando 
 
 Potete anche utilizzare il sistema di ricerca di Vim, ovvero la combinazione di `/ + <word>`.
 
-Nella seguente immagine potete vedere il risultato della seguente ricerca `/ + "justo"`. Ora si utilizza la lettera *d* come bersaglio ed otterrete il seguente risultato:
+Nella seguente immagine potete vedere il risultato della seguente ricerca `/ + "justo"`. Ora si può utilizzare la lettera *d* come bersaglio per ottenere il seguente risultato:
 
 ![Figura 3](/img/barra-cerca-justo.png "L'effetto del componente nel sistema ordinario di ricerca di Vim.")
 
-Nell'immagine finale potete vedere il risultato della *ordinaria ricerca in Vim* con gli effetti aggiunti da *EasyMotion*.
-
-Potete vedere che la posizione del cursore è esattamente sotto la lettera *d*.
+Come potete visivamente verificare, la posizione del cursore è esattamente sotto la lettera *d*.
 
 ![Figura 4](/img/barra-cerca-justo-evid.png "Esempio di ricerca  in Vim con le parola evidenziate")
 

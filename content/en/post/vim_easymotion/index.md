@@ -118,11 +118,11 @@ Some images could be very useful.
 In the first image you can see the result or a single character search with
 the following command: `\f + <one letter>` ("\\" is the default _\<Leader\>_).
 
-In this example I used ad "o" search.
+In this example I'm going to search the "o" letter:
 
 ![Figure 1](/img/barra-f.png "Search example with  *Leader*-f")
 
-In the second example I used a double character search with the command `\s + <two letters>` pointed the letters *qu*: the target letters are slightly less.
+In the second example you find ad example of a _double character search_ with the command `\s + <two letters>`. I'm going to search the letters *qu* together.
 
 ![Figure 2](/img/barra-s.png "Search example with  *Leader*-s")
 
@@ -131,14 +131,14 @@ In the second example I used a double character search with the command `\s + <t
 You can also use the ordinary Vim search, or the combination of `/ + <word>`.
 
 In the following image you can see the result of the following
-search `/ + "justo"`. Now I use the letter *d* as a target and I will get
-the following result:
+search `/ + "justo"`. 
 
 ![Figure 3](/img/barra-cerca-justo.png "The effect of the plugin in the ordinary Vim search.")
 
-In the final image you can see the result of the *ordinary Vim search* under the effects of *EasyMotion*.
+Then I can type  the _target_ letter *d* and I will get
+the  result in the following image.
 
-You can see the cursor position that's exactly under the previous *d* letter.
+Please,  see the cursor position exactly under the previous *d* target letter.
 
 ![Figure 4](/img/barra-cerca-justo-evid.png "Example of Vim search with words highlighted")
 

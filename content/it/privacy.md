@@ -15,8 +15,3 @@ header:
 Questo sito è di tipo statico, senza pubblicità, senza programmi in sottofondo, senza trucchi. Solo codice HTML autogenerato da Hugo con il modello Academic.
 
 Nessun dato personale, nessuna informazione di qualsiasi genere, nessun _biscotto_ viene registrato e memorizzato.
-
-QUESTO È, AL MOMENTO, UN MERO SITO DI PROVA senza effettivo contenuto.
-
-
-Add your privacy policy here and set `draft: false` to publish it. Otherwise, delete this file if you don't need it.

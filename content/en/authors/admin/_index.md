@@ -47,13 +47,13 @@ social:
   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-- icon: github
-  icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://twitter.com/franco_pasut
+# - icon: google-scholar
+#   icon_pack: ai
+#   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+# - icon: github
+#   icon_pack: fab
+#   link: https://github.com/gcushen
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -69,15 +69,19 @@ user_groups:
 - Researchers
 - Visitors
 ---
-Welcome to the _"Domus Verborum"_ (home of words) of F.P.
+Welcome to the _"Domus Verborum"_ (home of words) of Franco Pasut.
 
 I only write to keep my mind active and to practise editing with Vim and Emacs.
+
+This site has been designed for dual language usage.
+
+But the language sections are quite independent and, therefore, not all articles have a corresponding translation. 
 
 If someone will find something interesting among my writings I will be pleased. 
 
 That's all!
 
-Other resources online:
+Other my resources online:
 
 - [FP BLOG](https://francopasut-en.blogspot.com/)
 - [My Notebook](https://francopasut.github.io/)

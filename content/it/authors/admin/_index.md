@@ -47,13 +47,13 @@ social:
   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-- icon: github
-  icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://twitter.com/franco_pasut
+# - icon: google-scholar
+#   icon_pack: ai
+#   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+# - icon: github
+#   icon_pack: fab
+#   link: https://github.com/gcushen
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -69,15 +69,19 @@ user_groups:
 - Researchers
 - Visitors
 ---
-Benvenuti nella _"Domus Verborum"_ di F.P.
+Benvenuti nella _"Domus Verborum"_ di Franco Pasut.
 
 Scrivo soltanto per allenare la mente e per fare pratica di _editing_ con Vim ed Emacs.
+
+Questo sito è stato progettato per essere bilingue.
+
+Tuttavia le sezioni linguistiche sono tendenzialmente indipendenti e, quindi, non tutti gli articoli hanno una traduzione corrispondente.
 
 Se qualcuno troverà qualcosa di interessante tra i miei scritti mi farà piacere. 
 
 Tutto qui. 
 
-Altre risorse in rete:
+Altre mie risorse in rete:
 
 - [Blog di FP](https://francopasut.blogspot.com/)
 - [My Notebook](https://francopasut.github.io/)

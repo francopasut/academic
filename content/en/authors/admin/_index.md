@@ -42,9 +42,9 @@ bio: Let's talk about technology?
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-- icon: envelope
-  icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+# - icon: envelope
+#   icon_pack: fas
+#   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/franco_pasut
@@ -71,11 +71,7 @@ user_groups:
 ---
 Welcome to the _"Domus Verborum"_ (home of words) of Franco Pasut.
 
-I only write to keep my mind active and to practise editing with Vim and Emacs.
-
-This site has been designed for dual language usage.
-
-But the language sections are quite independent and, therefore, not all articles have a corresponding translation. 
+I only write to keep my mind active and to practise editing with Vim and Emacs in order,  to slow down my unavoidable "entropy" .
 
 If someone will find something interesting among my writings I will be pleased. 
 

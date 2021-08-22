@@ -42,9 +42,9 @@ bio: Loquimur
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-- icon: envelope
-  icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+# - icon: envelope
+#   icon_pack: fas
+#   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/franco_pasut
@@ -71,11 +71,7 @@ user_groups:
 ---
 Benvenuti nella _"Domus Verborum"_ di Franco Pasut.
 
-Scrivo soltanto per allenare la mente e per fare pratica di _editing_ con Vim ed Emacs.
-
-Questo sito è stato progettato per essere bilingue.
-
-Tuttavia le sezioni linguistiche sono tendenzialmente indipendenti e, quindi, non tutti gli articoli hanno una traduzione corrispondente.
+Scrivo soltanto per allenare la mente e per fare pratica di _editing_ con Vim ed Emacs, al fine di rallentare la mia ineluttabile "entropia".
 
 Se qualcuno troverà qualcosa di interessante tra i miei scritti mi farà piacere. 
 

@@ -24,6 +24,10 @@
     url = "#posts"
     weight = 2
   [[it.menu.main]]
+    name = "Argomenti"
+    url = "#tags"
+    weight = 3
+  [[it.menu.main]]
     name = "Per contattarmi"
     url = "#contact"
-    weight = 3
+    weight = 4

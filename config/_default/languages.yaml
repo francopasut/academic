@@ -1,0 +1,24 @@
+en:
+  languageCode: en-us
+  contentDir: content/en
+it:
+  languageCode: it-it
+  contentDir: content/it
+  title: D.V.F.P.
+  params:
+    description: Questo è un sito italiano di prova
+    date_format: 2/1/2006
+  menu:
+    main:
+      - name: Benvenuti
+        url: '#about'
+        weight: 1
+      - name: Ultimi articoli
+        url: '#posts'
+        weight: 2
+      - name: Argomenti
+        url: '#tags'
+        weight: 3
+      - name: Per contattarmi
+        url: '#contact'
+        weight: 4

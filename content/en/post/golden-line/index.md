@@ -59,7 +59,7 @@ If you want to *change* some line you can prepend the `c` (change) command. At t
 
 Here's my first document written with Ed (in Arch Linux environment):
 
-![My first Ed document](/img/ed_document.png)
+![My first Ed document](ed_document.png)
 
 Below, a small summary of the commands used in our *test.txt* Ed document:
 

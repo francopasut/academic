@@ -120,11 +120,11 @@ Tutto qui! Occorre un po' di pazienza per consentire a  *lyluatex* di compilare 
 
 ## ESEMPIO IN LINEA:  ##
 
-![Inline insertion](/img/inline-music-fragment.png)
+![Inline insertion](inline-music-fragment.png)
 
 ## ESEMPIO DI PARTITURA:  ##
 
-![Block insertion](/img/block-music-fragment.png)
+![Block insertion](block-music-fragment.png)
 
 Grazie per la vostra attenzione.
 

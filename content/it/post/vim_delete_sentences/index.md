@@ -76,19 +76,19 @@ Le seguenti animazioni in formato GIF sono state create con *Screenkey* e  *Peek
 
 Ecco il risultato dopo avere inserita la combinazione `dis`: notate gli spazi bianchi dopo la cancellazione della PRIMA frase.
 
-![](/img/vim_delete_sentences_1.gif)
+![](vim_delete_sentences_1.gif)
 
 Ecco il risultato per `das`: ora tutti gli spazi bianchi dopo la PRIMA frase sono stati eliminati.
 
-![](/img/vim_delete_sentences_2.gif)
+![](vim_delete_sentences_2.gif)
 
 Ed ecco il risultato per  `dip`: notate le tre linee vuote dopo la cancellazione del primo paragrafo.
 
-![](/img/vim_delete_sentences_3.gif)
+![](vim_delete_sentences_3.gif)
 
 Infine, ecco il risultato per `dap`: ogni spazio bianco dopo il primo paragrafo è stato eliminato ed il *focus* è puntato sul secondo paragrafo.
 
-![](/img/vim_delete_sentences_4.gif)
+![](vim_delete_sentences_4.gif)
 
 Usando gli "oggetto di testo" in Vim è possibile risparmiare molto tempo e ridurre l'affaticamente della vista!
 

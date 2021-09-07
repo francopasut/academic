@@ -42,12 +42,12 @@ I created a bootable stick with a portable system (specifically Peppermint on US
 
 I used the automatic mounting of the partitions *sdb2* and *sb3* in graphical mode (just clicking on the relevant folders in the file manager).
 
-![](/img/automatic_mounting_partition.png)
+![](automatic_mounting_partition.png)
 
 Then I copied the folder *home/franco* from the *sdb3* partition, opened the folder *home* on the *sdb2* partition as root (explicit option in the
 file manager) and simply pasted the copied material.
 
-![](/img/copy_paste_folder.png)
+![](copy_paste_folder.png)
 
 As final steps, I booted into the working operating system in maintenance mode, I commented out the line in *fstab* that contained the reference for the previous *home/franco* to *sdb3*, assigned to files, folder and subfolders the property to me with the following command: `chown -R franco:franco franco` and restarted the system.
 

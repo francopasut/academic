@@ -33,7 +33,7 @@ Quella che segue è, ovviamente, la mia soluzione ma ognuno può trovarne un'alt
 Prima di tutto occorre dare un'occhiata alla tastiera con configurazione _US International Dead Keys_ in  corrispondenza al numero 6 ed, in particolare, ai due simili caretteri indicati in altro sul tasto. 
 
 
- ![Figure 1](/img/tasto_6_US.png "Il carattere corretto è quello in alto a destra nel quadratino centrale")
+ ![Figure 1](tasto_6_US.png "Il carattere corretto è quello in alto a destra nel quadratino centrale")
 
 
 Come potete vedere vi sono due caratteri molto simili tra loro: `^` (piccolo) e `^`. 
@@ -55,10 +55,10 @@ Ma nella tastiera _US International Dead Keys Layout_  dovete premere tre divers
 
 
 
-![Figura 2](/img/combinazione_mani.jpg "Come su un pianoforte, vista laterale")
+![Figura 2](combinazione_mani.jpg "Come su un pianoforte, vista laterale")
 
 
-![Figura 3](/img/combinazione_mani2.jpg "Come su un pianoforte, vista dall'alto")
+![Figura 3](combinazione_mani2.jpg "Come su un pianoforte, vista dall'alto")
 
 
 Non sembra una combinazione di tasti pianistica?

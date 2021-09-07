@@ -41,10 +41,10 @@ Ho creato una chiavetta avviabile con un sistema operativo portabile (in partico
 
 Ho utilizzato il montaggio automatico delle partizioni *sdb2* e *sb3* in modalità grafica (è sufficiente cliccare sulle icone delle relative cartelle nel gestore di "file").
 
-![](/img/automatic_mounting_partition.png)
+![](automatic_mounting_partition.png)
 
 Quindi ho copiato la cartella *home/franco*  dalla partizione *sdb3*, ho aperto la cartella *home* nella partizione *sdb2* 
-![](/img/copy_paste_folder.png)
+![](copy_paste_folder.png)
 Alla fine, ho avviato il sistema operativo in modalità "manutenzione", ho commentato in *fstab* la line che conteneva il riferimento alla precedente cartella *home/franco* su  *sdb3*, ho assegnato ai documenti, alle cartelle ed  alle sottocartelle,  la proprietà a mio nome con il seguente comando: `chown -R franco:franco franco`  ed ho riavviato il sistema operativo.
 
 ADESSO FUNZIONA COME SECONDO LE MIE ESIGENZE!

@@ -33,7 +33,7 @@ What follows is my solution but, of course, everyone can find another one.
 First of all we need to  take a look at the _US International Dead Keys_ keyboard layout for the  key corresponding to the _number 6_ and,  in specific to the two similar characters indicated on the top of the key.
 
 
- ![Figure 1](/img/tasto_6_US.png "The correct character is the one at the top right in the middle square")
+ ![Figure 1](tasto_6_US.png "The correct character is the one at the top right in the middle square")
 
 
 
@@ -56,10 +56,10 @@ But in the _US International Dead Keys Layout_ you must press three keys to obta
 
 
 
-![Figure 2](/img/combinazione_mani.jpg "Like on a piano, side view")
+![Figure 2](combinazione_mani.jpg "Like on a piano, side view")
 
 
-![Figure 3](/img/combinazione_mani2.jpg "Like on a piano, top view")
+![Figure 3](combinazione_mani2.jpg "Like on a piano, top view")
 
 
 Doesn't that look like a _piano finger articulation_?

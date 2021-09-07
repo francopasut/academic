@@ -33,13 +33,13 @@ Per usare le "espressioni regolari" in Vim occorre attivare la linea di comando 
 
 Di seguito trovate  una GIF con uno schema di base di "espressione regolare": nell'esempio sono presenti due istanze della parola *dolor* che vorrei trasformare in *gaudium*.
 
-![Clip 1](/img/regex_vim_emacs_1.gif)
+![Clip 1](regex_vim_emacs_1.gif)
 
 Ha funzionato, ma solo la prima istanza della parola *dolor* è stata modificata in *gaudium*!
 
 Per ottenere la modifica di tutte le istanze occorre aggiungere l'opzione *g* al termine della stringa:
 
-![Clip 2](/img/regex_vim_emacs_2.gif)
+![Clip 2](regex_vim_emacs_2.gif)
 
 Ora entrambe le istanze sono state trasformate ed il risultato voluto è stato raggiunto!
 
@@ -56,7 +56,7 @@ Lo schema di "espressione regolare" in Emacs è, per il caso già sopra utilizza
 
 Nella GIF seguente potete vedere il comando in azione:
 
-![Clip 3](/img/regex_vim_emacs_3.gif)
+![Clip 3](regex_vim_emacs_3.gif)
 
 In Emacs, tutte le istanze sono modificate in automatico.
 

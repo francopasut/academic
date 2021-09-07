@@ -78,19 +78,19 @@ The following GIF animations are created with *Screenkey* and *Peek* in Arch Lin
 
 Here is the result after entering the combination `dis`: note the white spaces after the deletion of the FIRST sentence.
 
-![](/img/vim_delete_sentences_1.gif)
+![](vim_delete_sentences_1.gif)
 
 Here is the result for `das`: now every white space after the FIRST sentence is deleted.
 
-![](/img/vim_delete_sentences_2.gif)
+![](vim_delete_sentences_2.gif)
 
 And now the result for `dip`: note the three blank lines after the deletion of the first paragraph.
 
-![](/img/vim_delete_sentences_3.gif)
+![](vim_delete_sentences_3.gif)
 
 Finally, here is the result for `dap`: every blank line after the first paragraph is deleted and the *focus* is pointed on the second paragraph.
 
-![](/img/vim_delete_sentences_4.gif)
+![](vim_delete_sentences_4.gif)
 
 By using Text Objects in Vim you can really save a lot of time and some of your eyes!
 

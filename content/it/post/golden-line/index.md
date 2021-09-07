@@ -59,7 +59,7 @@ Per *modificare* qualche linea occorre utilizzare il comando `c` (change). Al te
 
 Ed ecco il mio primo documento scritto con Ed (in Arch Linux):
 
-![My first Ed document](/img/ed_document.png)
+![My first Ed document](ed_document.png)
 
 Sotto riporto un piccolo sommario dei comandi utilizzati per il documento *test.txt* scritto in Ed:
 

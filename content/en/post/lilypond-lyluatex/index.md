@@ -127,12 +127,12 @@ That's all! Have a little patience because *lyluatex* needs to compile the score
 ## INLINE EXAMPLE:  ##
 
 ![Inline
-insertion](/img/inline-music-fragment.png)
+insertion](inline-music-fragment.png)
 
 ## BLOCK CODE EXAMPLE:  ##
 
 ![Block
-insertion](/img/block-music-fragment.png)
+insertion](block-music-fragment.png)
 
 Thank you for your attention.
 

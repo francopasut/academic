@@ -117,11 +117,11 @@ Nella prima immmagine potete osservare il risultato di una ricerca di singolo ca
 
 Nell'esempio seguente ho effettuato la ricerca della lettera "o".
 
-![Figura 1](/img/barra-f.png "Esempio di ricerca con  *Leader*-f")
+![Figura 1](barra-f.png "Esempio di ricerca con  *Leader*-f")
 
 Nel secondo esempio ho utilizzato una ricerca a doppio carattere con il comando `\s + <two letters>` riferito alle lettere *qu*:
 
-![Figura 2](/img/barra-s.png "Esempio di riserca con  *Leader*-s")
+![Figura 2](barra-s.png "Esempio di riserca con  *Leader*-s")
 
 
 
@@ -129,11 +129,11 @@ Potete anche utilizzare il sistema di ricerca di Vim, ovvero la combinazione di 
 
 Nella seguente immagine potete vedere il risultato della seguente ricerca `/ + "justo"`. Ora si può utilizzare la lettera *d* come bersaglio per ottenere il seguente risultato:
 
-![Figura 3](/img/barra-cerca-justo.png "L'effetto del componente nel sistema ordinario di ricerca di Vim.")
+![Figura 3](barra-cerca-justo.png "L'effetto del componente nel sistema ordinario di ricerca di Vim.")
 
 Come potete visivamente verificare, la posizione del cursore è esattamente sotto la lettera *d*.
 
-![Figura 4](/img/barra-cerca-justo-evid.png "Esempio di ricerca  in Vim con le parola evidenziate")
+![Figura 4](barra-cerca-justo-evid.png "Esempio di ricerca  in Vim con le parola evidenziate")
 
 
 

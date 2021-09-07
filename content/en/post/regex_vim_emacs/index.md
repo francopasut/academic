@@ -36,13 +36,13 @@ You can use *regex* in Vim by invoking the command line followed by a pattern li
 
 Here's a GIF with a regex basic pattern: in the following example in which you can see a phrase containing two words *dolor*. I'm going to replace both *dolor* in *gaudium.*
 
-![Clip 1](/img/regex_vim_emacs_1.gif)
+![Clip 1](regex_vim_emacs_1.gif)
 
 It worked, but only the first *dolor* was changed into *gaudium*!
 
 To obtain the modification of all occurrences, add the *g* option at the end:
 
-![Clip 2](/img/regex_vim_emacs_2.gif)
+![Clip 2](regex_vim_emacs_2.gif)
 
 Now every *dolor* is changed into *gaudium*: target reached.
 
@@ -60,7 +60,7 @@ The *regex* pattern for Emacs, in the same previous situation, is the following 
 
 In the GIF below you can see a running example of the same regex as above seen with Vim:
 
-![Clip 3](/img/regex_vim_emacs_3.gif)
+![Clip 3](regex_vim_emacs_3.gif)
 
 In Emacs, all the occurrences are changed by default.
 

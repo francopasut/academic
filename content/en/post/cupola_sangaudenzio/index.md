@@ -16,6 +16,8 @@ image:
 
 {{< gallery album="sangaudenzio" >}}
 
+{{< youtube BsrgXt2v4CU >}}
+
 ## Informations from [turismonovara.it](https://www.turismonovara.it/en/ArtandHistoryDetail?Id=140)
 
 The Dome of Saint Gaudenzio was built on the homonymous Basilica, between 1577 and 1690 and placed on the city’s highest spot. 

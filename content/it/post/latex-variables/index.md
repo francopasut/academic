@@ -3,7 +3,7 @@ title: "LaTeX: creare ed usare variabili per risparmiare tempo e ridurre errori 
 date: 2021-09-15
 slug: latex_variables
 categories:
-  - Documents
+  - Documenti
 tags:
   - LaTeX
 image:

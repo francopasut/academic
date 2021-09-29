@@ -79,4 +79,4 @@ In tale ambiente emulato è possibile gestire gli *oggetti di testo* come in Vim
 
 Potete leggere [questo articolo](https://francopasut.netlify.app/it/post/vim_delete_sentences/) sul tema degli *oggetti di testo* per cancellare paragrafi e frasi.
 
-Thank you for your attention.
+Grazie per la vostra attenzione.

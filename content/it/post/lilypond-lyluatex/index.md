@@ -1,5 +1,5 @@
 ---
-title: "LaTeX, Lilypond and lyluatex package: state-of-the-art text and music typesetting"
+title: "LaTeX, Lilypond e pacchetto lyluatex: impaginare testo e musica con qualità allo stato dell'arte"
 date: 2020-03-21
 canonical_url: "https://medium.com/@francopasut/latex-lilypond-and-lyluatex-package-state-of-the-art-text-and-music-typesetting-f7c8d79ac66e/"
 slug: lilypond-lyluatex

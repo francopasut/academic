@@ -18,7 +18,7 @@ image:
 
 Alcuni comandi di Vim di cui parlerò in questo articolo:
 
-| I write                       | To get                                                                                                  |
+| Scrivo                       | Per ottenere                                                                                                  |
 | -------------                 | -------------                                                                                           |
 | `vim document_name`           | Per avviare Vim e aprire un documento                                                                   |
 | `gvim document_name`          | Per avviare Vim in modalità grafica ed aprire un documento                                              |

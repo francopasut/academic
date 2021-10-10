@@ -55,18 +55,18 @@ To split all documents into separate tabs add the `-p` option: `vim -p file-1 fi
 ![Open with p option](vim-open-multiple-p.gif)
 
 
-To split documents into separate windows, use the `-o` (lowercase "o" letter) option, i.e.  `vim -o file-1 file-2 file-n` nd, then,  to switch between splitted windows use the `Ctrl-w` command.
+To split documents into separate windows, use the `-o` (lowercase "o" letter) option, i.e.  `vim -o file-1 file-2 file-n` and, then,  to switch between splitted windows use the `Ctrl-w` command.
 
 ![Open with o option](vim-open-multiple-o.gif)
 
 
-To get the vertical separation you use `-O` (capital "O" letter), i.e. `vim -O file-1 file-2 file-n`) if you want a vertical split a
+To get the vertical separation you use `-O` (capital "O" letter), i.e. `vim -O file-1 file-2 file-n`) if you want a vertical split.
 
 ![Open with O option](vim_open_multiple_O.gif)
 
 If the files named in the commands do not exist, Vim creates empty files for each name.
 
-In every above commands you will get another result: the generation of an *arguments list* with the names of evey documents opened or created when you launched them with the *vim* command.
+In every above commands you will get another result: the generation of an *arguments list* with the names of every document opened or created when you launched the *vim* command.
 
 You can see the arguments list by typing `:args`.
 
@@ -80,7 +80,7 @@ It's the simplest command to open documents when Vim is already running.
 
 But it's not the only command available while Vim is running.
 
-You can *SPlit* another document above to an already open one with `:sp doc_name`:
+You can *SPlit* another document above to an already open one with `:sp doc_name`.
 
 The following video clips are recorded by separating the  opening operation of a first document,  named *file-1*,  with the `:e` command, from the addition of a second document, named *file-2*,  with the various commands `sp`, `vs` and `tabe`.
 
@@ -107,6 +107,6 @@ By typing the command `:Ex` (with a capital E) you can navigate and press the En
 
 This article could continue with other great Vim options on the same subject that I haven't discovered yet.
 
-But for now these are enaugh.
+But for now these are enough.
 
 Thank you for your attention and if you find any error in the article send me a message.

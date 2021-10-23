@@ -1,5 +1,5 @@
 ---
-title: "Lilypond: anacrusis, tuplet, multiple voices"
+title: "Lilypond: anacrusis, tuplets, multiple voices"
 date: 2021-10-23
 slug: lilypond_anacrusis_tuplet
 categories:
@@ -21,7 +21,7 @@ image:
 
 Every musician should learn it.  But writing code is more suitable for programmers than for musicians and many attempts have to be made to write complete scores.
 
-In this post I show you some coding snippets regardind _anacrusis, tuplets and multiple voices_ (If you're reading this article you know what  they are).
+In this post I show you some coding snippets regarding _anacrusis, tuplets and multiple voices_ (If you're reading this article you know what  they are).
 
 Here is the basic patterns for each of them in Lilypond language:
 
@@ -32,12 +32,12 @@ Here is the basic patterns for each of them in Lilypond language:
 | Multiple voices        | `<< {musical expression 1} \\ {musical expession 2}`, that's the *double backslash construct* |
 
 
-## Coloured items in a real score
+## Colored items in a real score
 
 In the image shown at the top of the page you can see a fragment of a real score,  limited to the first two measures, from  the *Piano Sonata No. 2 op. 19*, Sonate-Fantaisie,  by Alexander Scriabin (Aleksandr Nikolaevič Skrjabin).
 
 
-Colours identify musical elements as follows:
+Colors identify musical elements as follows:
 
 | Musical item  | Color            |
 | ------------- | -------          |
@@ -45,11 +45,11 @@ Colours identify musical elements as follows:
 | Tuplets       | Blue             |
 | Multiple Voices        | Blue and Magenta |
 
-I used the colour blue to highlight both the tuplets  and the outer voice (magenta for inner voice).
+I used the color blue to highlight both the tuplets  and the outer voice (magenta for inner voice).
 
 ## Analysis of elements
 
-The ***anacrusis***, in this example, is realised by two simultaneous notes with the same duration.
+The ***anacrusis***, in this example, is realized by two simultaneous notes with the same duration.
 
 The pattern for contextual notes having the same duration, such as octaves or chords, is the following `< ... >`.
 
@@ -95,7 +95,7 @@ Here is the code for the tuplet and the inner voice from the first measure:
 ```
 
 
-And finally the code for the tuplet and the inner voice from the second measure:
+And finally,  the code for the tuplet and the inner voice from the second measure:
 
 ```
 {

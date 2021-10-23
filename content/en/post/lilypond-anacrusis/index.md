@@ -63,7 +63,7 @@ left = \relative c' { \partial 16  < gis,,  gis' >16 }
 ```
 
 
-The ***tuplets*** (*triplets*) are, in this score,  a little more complicated: double notes (coloured blue) and separate inner voice (coloured magenta).
+The ***tuplets*** (*triplets*) are, in this score,  a little more complicated: double notes (colored blue) and separate inner voice (colored magenta).
 
 Here is the code for the tuplet only, without the inner voice, from the first measure:
 

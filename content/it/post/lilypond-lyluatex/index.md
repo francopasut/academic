@@ -1,5 +1,5 @@
 ---
-title: "LaTeX, Lilypond e pacchetto lyluatex: impaginare testo e musica con qualità allo stato dell'arte"
+title: "LaTeX, LilyPond e pacchetto lyluatex: impaginare testo e musica con qualità allo stato dell'arte"
 date: 2020-03-21
 canonical_url: "https://medium.com/@francopasut/latex-lilypond-and-lyluatex-package-state-of-the-art-text-and-music-typesetting-f7c8d79ac66e/"
 slug: lilypond-lyluatex
@@ -7,7 +7,7 @@ categories:
   - Editors
 tags:
   - LaTeX
-  - Lilypond
+  - LilyPond
 image:
   placement: 3
   preview_only: true
@@ -18,29 +18,29 @@ image:
 
 
 
-## LaTeX e Lilypond  ##
+## LaTeX e LilyPond  ##
 
 *LaTeX* è un linguaggio di marcatura per  impaginare testi e notazione matematica, scientifica ed altro allo  \"*stato dell'arte\"* 
 
-*Lilypond* è l'equivalente per la notazione musicale.
+*LilyPond* è l'equivalente per la notazione musicale.
 
 *LaTeX e  Lylipond* insieme sono un eccellente sistema per combinare notazione musicale e testi all'interno dei documenti.
 
 Tuttavia non è semplicissimo generare testi in cui vengono utilizzanti entrambi i linguatti di marcatura.
 
-Questo breve articolo è una semplice introduzione introduction all'utilizzo di  *LaTeX e Lilypond* insieme.
+Questo breve articolo è una semplice introduzione introduction all'utilizzo di  *LaTeX e LilyPond* insieme.
 
 ## Prerequisiti per comprendere questo articolo  ##
 
-Per comprendere il contenuto di questo articolo è, ovviamente, necessario conoscere i linguaggi di marcatura di cui si parla: *LaTeX* e *Lilypond*.
+Per comprendere il contenuto di questo articolo è, ovviamente, necessario conoscere i linguaggi di marcatura di cui si parla: *LaTeX* e *LilyPond*.
 
 Esistono molti tutorial in  Internet per imparare ad utilizzare LaTeX.
 
-For *Lilypond*, il migliore corso introduttivo è quello disponibile alla pagina ufficiale  \ <https://lilypond.org/website/manuals.html>
+For *LilyPond*, il migliore corso introduttivo è quello disponibile alla pagina ufficiale  \ <https://lilypond.org/website/manuals.html>
 
 Ovviamente occorre anche conoscere la notazione musicale.
 
-## La soluzione proposta dal sito Lilypond  ##
+## La soluzione proposta dal sito LilyPond  ##
 
 
 
@@ -62,7 +62,7 @@ Effettivamente non è molto comodo da utilizzare.
 
 Fortunatamente da qualche anno è presente nelle distribuzioni  [TEX Live](https://ctan.org/pkg/texlive) e [MiKTEX](https://ctan.org/pkg/miktex) l'incredibile pacchetto  ***lyluatex*** che consente di inserire partiture musicali complete direttamente all'interno di documenti LaTeX.
 
-Occorre semplicemente aggiungere la direttiva `\usepackage{lyluatex}` nel   *preambolo* del documento in LaTeX per essere pronti ad utilizzare i comandi *Lilypond*.
+Occorre semplicemente aggiungere la direttiva `\usepackage{lyluatex}` nel   *preambolo* del documento in LaTeX per essere pronti ad utilizzare i comandi *LilyPond*.
 
 Naturalmente occorre anche installare  *lilypond* stesso nel sistema operativo.
 

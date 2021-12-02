@@ -1,5 +1,5 @@
 ---
-title: "LaTeX, Lilypond and lyluatex package: state-of-the-art text and music typesetting"
+title: "LaTeX, LilyPond and lyluatex package: state-of-the-art text and music typesetting"
 date: 2020-03-21
 canonical_url: "https://medium.com/@francopasut/latex-lilypond-and-lyluatex-package-state-of-the-art-text-and-music-typesetting-f7c8d79ac66e/"
 slug: lilypond-lyluatex
@@ -7,7 +7,7 @@ categories:
   - Editors
 tags:
   - LaTeX
-  - Lilypond
+  - LilyPond
 image:
   placement: 3
   preview_only: true
@@ -18,35 +18,35 @@ image:
 
 
 
-## LaTeX and Lilypond  ##
+## LaTeX and LilyPond  ##
 
 *LaTeX* is a \"*state-of-the art\"* pagination system for text, maths
 and more.
 
-*Lilypond* is the same for musical scores.
+*LilyPond* is the same for musical scores.
 
 *LaTeX and Lylipond* together are a true excellence to mix music
 notation and text within same documents.
 
 But it is not so easy to generate documents by using that combination of markup languages.
 
-This post is intended as a simple introduction to start using *LaTeX and Lilypond* in documents containing text and music notation.
+This post is intended as a simple introduction to start using *LaTeX and LilyPond* in documents containing text and music notation.
 
 ## Prerequisites for understanding this article  ##
 
-In order to understand the content of this article, it is of course necessary to know the markup languages it deals with: *LaTeX* and *Lilypond*.
+In order to understand the content of this article, it is of course necessary to know the markup languages it deals with: *LaTeX* and *LilyPond*.
 
 There are many tutorials on Internet on how to use LaTeX.
 
-For *Lilypond*, the best tutorial is the one available on the official
+For *LilyPond*, the best tutorial is the one available on the official
 page \
 <https://lilypond.org/website/manuals.html>
 
 Obviously you need to know musical notation.
 
-## The Lilypond official solution  ##
+## The LilyPond official solution  ##
 
-*Lilypond* is a markup language to produce music scores of high typographical quality.
+*LilyPond* is a markup language to produce music scores of high typographical quality.
 
 In the *Usage* manual there is a section on how to use it inside *LaTeX* documents: [Section 3.2.1](https://lilypond.org/doc/v2.22/Documentation/usage/latex).
 
@@ -67,7 +67,7 @@ Not a very efficient system!
 
 Fortunately since a few years it is contained in [TEX Live](https://ctan.org/pkg/texlive) and in [MiKTEX](https://ctan.org/pkg/miktex) distributions the amazing ***lyluatex*** package that lets you to insert complete music scores or inline music notation using a single command.
 
-You simply must add the `\usepackage{lyluatex}` directive to the *preamble* of your LaTeX document and you're ready to use *Lilypond* directly inside your *LaTeX* document.
+You simply must add the `\usepackage{lyluatex}` directive to the *preamble* of your LaTeX document and you're ready to use *LilyPond* directly inside your *LaTeX* document.
 
 Of course, you also need to install *lilypond* itself in your operating system.
 

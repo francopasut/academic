@@ -1,11 +1,11 @@
 ---
-title: "Lilypond: anacrusis, tuplets, multiple voices"
+title: "LilyPond: anacrusis, tuplets, multiple voices"
 date: 2021-10-23
 slug: lilypond_anacrusis_tuplet
 categories:
   - Music
 tags:
-  - Lilypond
+  - LilyPond
 image:
   placement: 3
   preview_only: false 
@@ -17,15 +17,15 @@ image:
 
 ## A very short introduction
 
-[Lilypond](http://lilypond.org/) is an incredible and powerful language for writing music scores. 
+[LilyPond](http://lilypond.org/) is an incredible and powerful language for writing music scores. 
 
 Every musician should learn it.  But writing code is more suitable for programmers than for musicians and many attempts have to be made to write complete scores.
 
 In this post I show you some coding snippets regarding _anacrusis, tuplets and multiple voices_ (If you're reading this article you know what  they are).
 
-Here is the basic patterns for each of them in Lilypond language:
+Here is the basic patterns for each of them in LilyPond language:
 
-| Musical item  | Lilypond pattern                                                                              |
+| Musical item  | LilyPond pattern                                                                              |
 | ------------- | -------                                                                                       |
 | Anacrusis     | `\partial x` followed by a `x` duration note                                                  |
 | Tuplets       | `\tuplet x/y {n1 n2 n3}`: n(1, 2, 3) are the notes with "x" total duration instead of "y"     |

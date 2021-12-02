@@ -1,11 +1,11 @@
 ---
-title: "Lilypond: anacrusi, gruppi irregolari, voci multiple"
+title: "LilyPond: anacrusi, gruppi irregolari, voci multiple"
 date: 2021-10-23
 slug: lilypond_anacrusis_tuplet
 categories:
   - Music
 tags:
-  - Lilypond
+  - LilyPond
 image:
   placement: 3
   preview_only: false 
@@ -17,15 +17,15 @@ image:
 
 ## Brevissima introduzione
 
-[Lilypond](http://lilypond.org/) è un incredibile e potente linguaggio per scrivere partiture musicali.
+[LilyPond](http://lilypond.org/) è un incredibile e potente linguaggio per scrivere partiture musicali.
 
 Ogni musicista dovrebbe impararlo. Ma la scrittura di codice è più adatta ai programmatori che ai musicisti e occorre effettuare molti tentativi per scrivere partiture complete.
 
 In questo articolo vi mostro   alcuni piccoli frammenti di codice riguardanti *anacrusi,  gruppi irregolari e voci multiple* (Se state leggendo questo articolo sapete di cosa si tratta).
 
-Ecco gli schemi di base per ciascuno di essi in linguaggio Lilypond:
+Ecco gli schemi di base per ciascuno di essi in linguaggio LilyPond:
 
-| Musical item  | Lilypond pattern                                                                              |
+| Musical item  | LilyPond pattern                                                                              |
 | ------------- | -------                                                                                       |
 | Anacrusi     | `\partial x` seguito da una nota di valore  `x` |
 | Gruppi irregolari       | `\tuplet x/y {n1 n2 n3}`: n(1, 2, 3) sono le note con durata totale "x"  al posto di "y"     |

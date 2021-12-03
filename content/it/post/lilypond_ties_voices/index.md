@@ -8,7 +8,7 @@ tags:
   - LilyPond
 image:
   placement: 3
-  preview_only: false 
+  preview_only: true 
   caption: 'LilyPond, legature di valore e voci'
 ---
 

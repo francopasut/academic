@@ -8,7 +8,7 @@ tags:
   - LilyPond
 image:
   placement: 3
-  preview_only: false 
+  preview_only: true 
   caption: 'LilyPond, ties and voices'
 ---
 

@@ -3,7 +3,7 @@ title: "LilyPond, legature di valore e voci"
 date: 2021-12-01
 slug: lilypond_ties_voices
 categories:
-  - Music
+  - Musica
 tags:
   - LilyPond
 image:

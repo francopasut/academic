@@ -3,7 +3,7 @@ title: "LilyPond, legature di valore e voci (avanzato)"
 date: 2021-12-30
 slug: lilypond_ties_voices_advanced
 categories:
-  - Music
+  - Musica
 tags:
   - LilyPond
 image:
@@ -16,10 +16,12 @@ image:
 
 ## L'oggetto di questo articolo
 
-L'oggetto di questo articolo è il medesimo di
-[questo mio precedente](https://francopasut.netlify.app/it/post/lilypond_ties_voices/) ma in questo caso ho scritto una breve partitura per pianoforte in LilyPond con combinazioni di voci e legature di valore un po' più complesse.
+L'oggetto dell'articolo è il medesimo di
+[questo mio precedente](https://francopasut.netlify.app/it/post/lilypond_ties_voices/) ma ora ho composto, utilizzando il linguaggio LilyPond,  una breve partitura per pianoforte  con combinazioni di voci e legature di valore un po' più complesse.
 
-Ho, quindi, creato un'immagine colorata con evidenza dei punti di interesse.
+Ho anche  creato un'immagine colorata con evidenza dei punti di interesse.
+
+Alla fine dell'articolo potrete anche ascoltare la versione audio della breve composizione.
 
 I seguenti termini del lessico di LilyPond devono, naturalmente, essere considerati:
 
@@ -139,5 +141,25 @@ Il codice corrisponde a questa partitura (in cui ho soltanto aggiunto i colori a
 - Punto di incrocio no. 2: potete vedere la legatura di valore tra la fine della voce superiore (voiceOne) nella polifonia a due voci ed il ritorno della voce singola   (oneVoice) nella mano destra.
 - Punto di incrocio no. 3: potete vedere la legatura di valore tra la fine della voce singola (oneVoice) e l'inizio della voce inferiore   (voiceTwo) nella polifonia a due voci della mano sinistra.
 - Punto di incrocio no. 4: potete vedere la legatura di valore tra la fine della voce inferiore  (voiceTwo) nella polifonia a due voci ed il ritorno della voce singola  (oneVoice) della mano sinistra.
+
+## Ma il sistema non è perfetto  ##
+
+Il sistema non è perfetto.
+
+Durante il processo di elaborazione della partitura, viene riportato un avviso nella legatura di valore del Punto  no. 2, anche se, alla fine dell'elaborazione, la legatura viene correttamente incisa:
+
+```
+Interpreting music...
+(...): warning: unterminated tie
+     { g4 a b c~  c8 d16 e fis8 e  d4 c
+                                       ~ c8 d c4~ } % voiceTwo in the right hand
+
+```
+
+Inoltre le legature non vengono visualizzate quando si genera l'equivalente audio della partitura, come potete ascoltare nella seguente clip:
+
+{{< audio src="audio_example_ties.mp3" >}}
+
+Gli sviluppatori di LilyPond devono ancora mettere a punto il sistema.
 
 Grazie per la Vostra attenzione.

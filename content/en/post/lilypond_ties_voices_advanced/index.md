@@ -16,11 +16,13 @@ image:
 
 ## The object of this article
 
-The object  of this article is the same as    [my this previous article](https://francopasut.netlify.app/post/lilypond_ties_voices/) but in this case I wrote a score for piano with a little bit more complex voices and ties combinations in LilyPond.
+The object  of the article is the same as    [my this previous article](https://francopasut.netlify.app/post/lilypond_ties_voices/) but now I have composed, using the LilyPond language,  a short  score for piano with a little bit more complex voices and ties combinations.
 
-I have, then, created a colour image highlighting the points of interest.
+I have also  created a colour image highlighting the points of interest.
 
-The following terms from the LilyPond lexicon must, of course, be regarded:
+You can also listen to the audio version of the short composition at the end of the article.
+
+The following terms from the LilyPond lexicon must, of course, be regarded: 
 
 - oneVoice: a single voice line
 - voiceOne: the upper melody line of a  polyphonic  composition
@@ -139,5 +141,26 @@ The code corresponds to this score (in which I have only added the colours of th
 - Crossing point no. 2: here you can see the tie between the end of the upper  voice (voiceOne) in the two-voice polyphony  and the return of the single voice (oneVoice) of the right hand.
 - Crossing point no. 3: here you can see the tie between the end of the single voice (oneVoice) and the beginning of the lower  voice (voiceTwo) in the two-voice polyphony of the left hand.
 - Crossing point no. 4: here you can see the tie between the end of the lower  voice (voiceTwo) in the two-voice polyphony  and the return  of the single voice (oneVoice) of the left hand.
+
+
+## But the system is not perfect  ##
+
+The system is not perfect.
+
+During the engraving process, a warning is reported in the tie of Point no. 2 even if, at the end of processing, the tie is correctly engraved:
+
+```
+Interpreting music...
+(...): warning: unterminated tie
+     { g4 a b c~  c8 d16 e fis8 e  d4 c
+                                       ~ c8 d c4~ } % voiceTwo in the right hand
+
+```
+
+In addition, the ties are not considered when generating the audio file from  the score, as you can hear in the following clip:
+
+{{< audio src="audio_example_ties.mp3" >}}
+
+LilyPond developers have to tweak the system yet.
 
 Thank You for your attention.

@@ -9,7 +9,7 @@ tags:
   - LaTeX
 image:
   placement: 3
-  preview_only: true 
+  preview_only: false 
   caption: 'Org Mode vs Emacs'
 ---
 
@@ -55,7 +55,7 @@ Per quanto concerne la lingua italiana, tuttavia,  ho riscontrato che l'esportaz
 
 Ad esempio: l'intestazione  dell'_Indice_ dei vari paragrafi viene indicata come "_Contents_" e le date restano impostate con il formato inglese.
 
-Per avere una corretta esportazione di tutti gli elementi ho provato ad aggiungere anche i seguenti comandi, che sono quelli tradizionalmente utilizzati in LaTeX per la corretta impostazione della lingua italiana.
+Per avere una corretta esportazione di tutti gli elementi ho provato ad aggiungere anche i comandi di seguito indicati, che sono quelli tradizionalmente utilizzati in LaTeX per la corretta impostazione della lingua italiana.
 
 ```
 #+LATEX_HEADER: \usepackage[T1]{fontenc}
@@ -63,7 +63,7 @@ Per avere una corretta esportazione di tutti gli elementi ho provato ad aggiunge
 #+LATEX_HEADER: \usepackage[italian]{babel}
 ```
 
-L'effetto è stato quello desiderato: le impostazioni di lingua sono risultate complete e corrette.
+L'effetto è stato quello desiderato: le impostazioni di lingua nel documento esportato in LaTeX sono risultate complete e corrette!
 
 Ovviamente è possibile aggiungere altre impostazioni preliminari, ma non è questo l'oggetto dell'articolo.
 
@@ -75,9 +75,9 @@ La riga `#+LATEX_HEADER: \newcommand{\myname}{Franco}` crea una nuova variabile 
 
 La linea `#+LATEX_HEADER: \newcommand{\mysurname}{Pasut}` crea una nuova variabile chiamata "mysurname" che sarà sostituita, nel documento esportato in LaTeX, con  il nome proprio  "Pasut".
 
-Ora potrete disseminare le variabili  `\myname{}` e `\mysurname{}`,  o qualsiasi altra variabile vorrete creare, nel documento Org Mode per, poi, ottenere la sostituzione automatica nel documento esportato in LaTeX con i nomi `Franco` e `Pasut`.
+Ora potrete disseminare le variabili  `\myname{}` e `\mysurname{}`,  o qualsiasi altra variabile vorrete creare, nel documento Org Mode per, poi, ottenere la sostituzione automatica nel documento esportato in LaTeX con i nomi impostati, nel caso di specie `Franco` e `Pasut`.
 
-Attenzione a non utilizzare nomi di variabili riservati al sistema: ve ne accorgereste subito perchè le variabili non sarebbero trasformate correttamente.
+Attenzione a non utilizzare nomi di variabili riservati al sistema Emacs: ve ne accorgereste subito perchè le variabili non sarebbero trasformate correttamente.
 
 Come potete notare sopra, le variabili sono seguite dallo spazio vuoto `{}` che serve per distanziare i nomi generati dalle variabili dalle parole immediatamente successive. 
 

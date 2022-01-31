@@ -28,7 +28,7 @@ For those who have already learned the syntax, it may be useful to use the infin
 
 In the [LilyPond user manual (2.22 release)](https://lilypond.org/doc/v2.22/Documentation/usage/text-editor-support.html), are reported some synthetic indications for **Emacs mode** as well as for **Vim mode**. 
 
-In this article I only add some technical and practical data **with regards to Vim** (I will dedicate a following article to Emacs).
+In this article I only add some technical and practical data **with regard to Vim** (I will dedicate a following article to Emacs).
 
 Every step  have been tested on two Linux distributions: Ubuntu 21.10 and Arch.
 
@@ -36,7 +36,7 @@ Every step  have been tested on two Linux distributions: Ubuntu 21.10 and Arch.
 
 Here are the indications from the User's Manual, currently available at the link above, on the description and configuration of Vim for use as an *editor* in LilyPond:
 
-> For [Vim](http://www.vim.org/), a filetype plugin, indent mode, and syntax-highlighting mode are available to use with LilyPond. To enable all of these features, create (or modify) your ‘$HOME/.vimrc’ to contain these three lines, in order:The following features are available for Vim for LilyPond: a file type recognition plugin, an indentation mode and syntax highlighting. To enable them, create (or edit) the file `$HOME/.vimrc` so that it contains these three lines, in this order:
+> For [Vim](http://www.vim.org/), a filetype plugin, indent mode, and syntax-highlighting mode are available to use with LilyPond. To enable all of these features, create (or modify) your ‘$HOME/.vimrc’ to contain these three lines, in order:
 
 ```
 filetype off

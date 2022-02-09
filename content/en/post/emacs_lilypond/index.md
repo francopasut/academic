@@ -10,7 +10,7 @@ tags:
 image:
   placement: 3
   preview_only: false
-  caption: Emacs and LilyPond for music'
+  caption: 'Emacs and LilyPond for music'
 ---
 
 {{% toc %}}

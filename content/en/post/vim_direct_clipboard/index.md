@@ -58,7 +58,7 @@ And so on...
 
 In short: all is extremely *logical and efficient*,  in typical "*Vim style*". 
 
-Vim is a continuos challenge for your mind and your memory but the advantage in terms of writing speed and efficiency compensates any learning effort, as well as being a great memory training.
+Vim is a continuous challenge for your mind and your memory but the advantage in terms of writing speed and efficiency compensates any learning effort, as well as being a great memory training.
 
 Thank you for your attention.
 

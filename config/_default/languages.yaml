@@ -4,7 +4,7 @@ en:
 it:
   languageCode: it-it
   contentDir: content/it
-  title: Sito Personale di Franco Pasut
+  title: Franco Pasut
   params:
     description: Sito personale di Franco Pasut
     date_format: 2/1/2006

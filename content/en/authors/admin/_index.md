@@ -69,7 +69,7 @@ user_groups:
 - Researchers
 - Visitors
 ---
-Welcome to the _"Domus Verborum"_ (home of words) of Franco Pasut.
+Welcome to my personal website.
 
 I only write to keep my mind active and to practise editing with Vim and Emacs in order,  to slow down my unavoidable "entropy" .
 

@@ -69,7 +69,7 @@ user_groups:
 - Researchers
 - Visitors
 ---
-Benvenuti nella _"Domus Verborum"_ di Franco Pasut.
+Benvenuti nel mio sito personale.
 
 Scrivo soltanto per allenare la mente e per fare pratica di _editing_ con Vim ed Emacs, al fine di rallentare la mia ineluttabile "entropia".
 

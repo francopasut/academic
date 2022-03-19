@@ -4,9 +4,9 @@ en:
 it:
   languageCode: it-it
   contentDir: content/it
-  title: D.V.F.P.
+  title: Sito Personale di Franco Pasut
   params:
-    description: Questo è un sito italiano di prova
+    description: Sito personale di Franco Pasut
     date_format: 2/1/2006
   menu:
     main:

@@ -90,8 +90,6 @@ Di seguito il relativo preambolo:
 \usepackage{etoolbox}
 \author{Franco Pasut}
 \date{\today}
-
-
 ```
 
 

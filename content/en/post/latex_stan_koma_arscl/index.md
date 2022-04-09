@@ -60,7 +60,7 @@ Following is the relative preamble:
 
 
 
-## LaTeX in koma-script versione
+## LaTeX in koma-script version
 This is, instead, the version with the "koma-script" package: the text of the sections is more _rounded_ and, consequently, they "detach" better from the base text.
 
 A feature of this solution is the possibility to use font sizes larger than 12 pt.
@@ -88,12 +88,10 @@ Below is the related preamble:
 \usepackage{etoolbox}
 \author{Franco Pasut}
 \date{\today}
-
-
 ```
 
 
-## LaTeX in ArsClassica versione
+## LaTeX in ArsClassica version
 Finally, here is the _ArsClassica_ version: extremely elegant, with the text of the current section at the top right (in this case it says "Index" because it is at the beginning of the document).
 
 The separation between the text of the sections and the basic text is very clear.

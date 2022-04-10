@@ -22,7 +22,7 @@ For those who want to try different typographical solutions it is, however, poss
 
 The result may be more or less preferable to the _standard_ version but it is, however, interesting to make some comparative tests. 
 
-In this article I compare the title page of a hypothetical court document in the _standard_ version, in the version named _koma-script_ and in the further version named _ArsClassica_.
+In this article I compare the title page of an agreement document in the _standard_ version, in the version named _koma-script_ and in the further version named _ArsClassica_.
 
 At the end of every paragraph I report the relative _preambles_ used for the generation of every version.
 

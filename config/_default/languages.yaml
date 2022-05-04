@@ -4,13 +4,13 @@ en:
 it:
   languageCode: it-it
   contentDir: content/it
-  title: Domus
+  title: Sito FP
   params:
     description: Sito personale di Franco Pasut
     date_format: 2/1/2006
   menu:
     main:
-      - name: Benvenuti
+      - name: Domus
         url: '#about'
         weight: 1
       - name: Ultimi articoli

@@ -1,5 +1,5 @@
 main:
-  - name: Welcome
+  - name: Home
     url: '#about'
     weight: 10
   - name: Posts

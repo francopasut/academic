@@ -1,5 +1,5 @@
 ---
-title: "Usare una mappatura di tastiera internazionale al posto di quella italiana"
+title: "Computer: appunti sull'uso di tastiera con mappatura internazionale al posto di quella italiana"
 date: 2022-06-04
 slug: tastiera_internazionale
 categories:

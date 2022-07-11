@@ -1,6 +1,6 @@
 ---
-title: "Jumping between matching pairs of characters in Vim and Emacs"
-date: 2022-07-12
+title: "Jumping between matching pairs of characters and tags in Vim and Emacs"
+date: 2022-07-11
 slug: jump_vim_emacs
 categories:
   - Editors

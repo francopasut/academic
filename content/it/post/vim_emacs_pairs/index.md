@@ -1,6 +1,6 @@
 ---
-title: "Saltare tra coppie di caratteri corrispondenti in Vim ed Emacs"
-date: 2022-07-12
+title: "Saltare tra coppie di caratteri e tag corrispondenti in Vim ed Emacs"
+date: 2022-07-11
 slug: jump_vim_emacs
 categories:
   - Editors

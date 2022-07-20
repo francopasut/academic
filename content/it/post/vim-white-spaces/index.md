@@ -1,5 +1,5 @@
 ---
-title: "Vim: espressioni regolari per la rimozione degli spazi bianchi ridondanti"
+title: "Vim ed espressioni regolari per la rimozione degli spazi bianchi ridondanti"
 date: 2022-07-19
 slug: vim_regex_white_spaces
 categories:

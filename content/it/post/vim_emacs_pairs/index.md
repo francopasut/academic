@@ -15,7 +15,7 @@ image:
 
 {{% toc %}}
 
-Quando si codifica o si scrive in un linguaggio di markup come HTML, Markdown o LaTeX, è molto utile saltare attraverso coppie di caratteri corrispondenti, come parentesi o virgolette o persino tag.
+Quando si codifica o si scrive in un linguaggio di markup come HTML, Markdown o LaTeX, è molto utile saltare attraverso coppie di caratteri corrispondenti, come parentesi o tag.
 
 Sia Vim che Emacs hanno comandi dedicati a questo scopo.
 

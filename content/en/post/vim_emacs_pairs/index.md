@@ -15,7 +15,7 @@ image:
 
 {{% toc %}}
 
-It is very useful to jump through corresponding pairs of characters, such as parentheses or quotation marks or even tags, when coding or writing in a markup language such as HTML, Markdown or LaTeX.
+It is very useful to jump through corresponding pairs of characters, such as parentheses or tags, when coding or writing in a markup language such as HTML, Markdown or LaTeX.
 
 Both Vim and Emacs have dedicated commands for this purpose.
 

@@ -1,11 +1,12 @@
 ---
-title: "Vim and regular expressions for removing redundant whitespace"
+title: "Vim and Regular Expressions for removing redundant whitespace"
 date: 2022-07-19
 slug: vim_regex_white_spaces
 categories:
   - Editors
 tags:
   - Vim
+  - RegEx
 image:
   placement: 3
   preview_only: true 
@@ -16,15 +17,15 @@ image:
 
 ## Introduction and structure of the article
 
-I wrote this article to practice "in situ" formula construction of *regular expressions* in Vim.
+I wrote this article to practice "*in situ*" formula construction of *Regular Expressions* also called *RegEx* in Vim.
 
 In particular, the goal is to "clean up" documents with excess whitespace at both the beginning and end of each line.
 
-A basic knowledge of Vim and the regular expressions built into the _editor_ is sufficient for understanding the article.
+A basic knowledge of Vim and the Regular Expressions built into the _editor_ is sufficient for understanding the article.
 
 The various formulas are applied to whole documents but, since they are very normal search commands in Vim, they can be applied to individual rows or to specific ranges of rows in the context of the document.
 
-There are three formulas illustrated and the construction is progressive with "step-by-step" analysis of the syntax of _regular expressions_.
+There are three formulas illustrated and the construction is progressive with "step-by-step" analysis of the syntax of _Regular Expressions_.
 
 The structure of the article is as follows: first I illustrate the creation of the formula for an end-of-line operation; then I move on to the reverse formula, i.e., for the same operation but at the beginning of the line; finally I combine the two formulas a single command that performs both operations.
 
@@ -39,7 +40,7 @@ Happy reading!
 * **Reference situation**: lines with numerous white spaces after the last word. May happen when copying text fragments from the Internet.
 * **Objective**: delete by means of Vim all white spaces after the last word of each line with one composite command.
 
-Using *regular expressions* in Vim allows you to hit the **goal** with a single composite command that self-replicates throughout the document.
+Using *Regular Expressions* in Vim allows you to hit the **goal** with a single composite command that self-replicates throughout the document.
 
 In practice: one needs to construct the search string so as to find the **reference situation** to which the targeted deletion action is to be applied.
 
@@ -47,7 +48,7 @@ Having the purpose of selecting whitespace at the end of the line, we need to *l
 
 So the first construct could be, precisely: `\s+$`.
 
-However, that construct is **error** because the symbol `+` is considered, in the syntax of *regular expressions*, to be a *metacharacter* that is the *special character* that does not identify itself but other characters.
+However, that construct is **error** because the symbol `+` is considered, in the syntax of *Regular Expressions*, to be a *metacharacter* that is the *special character* that does not identify itself but other characters.
 
 The metacharacter in focus is a repetition operator that corresponds to a predefined sequence.
 
@@ -74,7 +75,7 @@ The effect of the command is highlighted in the gray area:
 
 With the possible addition of the letter `c` for explicit confirmation of each instance.
 
-Personal impression: the construction of regular expressions starting from the middle reminds me of the construction of Latin phrases starting from the verb.
+Personal impression: the construction of Regular Expressions starting from the middle reminds me of the construction of Latin phrases starting from the verb.
 
 It would be interesting to explore this unusual analogy further.
 
@@ -83,7 +84,7 @@ It would be interesting to explore this unusual analogy further.
 * **Reference situation**: lines with numerous white spaces before the first word. May happen when copying text fragments from the Internet.
 * **Objective**: delete by means of Vim all white spaces before the first word of each line with a single composite command.
 
-Using the same technique as above, one can easily construct a *regular expression* that performs the specualar operation: delete all whitespace present before the first word of each line.
+Using the same technique as above, one can easily construct a *Regular Expression* that performs the specualar operation: delete all whitespace present before the first word of each line.
 
 Again, it is appropriate to start with the middle part of the formula.
 

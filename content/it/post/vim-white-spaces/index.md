@@ -1,11 +1,12 @@
 ---
-title: "Vim ed espressioni regolari per la rimozione degli spazi bianchi ridondanti"
+title: "Vim ed Espressioni Regolari per la rimozione degli spazi bianchi ridondanti"
 date: 2022-07-19
 slug: vim_regex_white_spaces
 categories:
   - Editors
 tags:
   - Vim
+  - RegEx
 image:
   placement: 3
   preview_only: true 
@@ -16,15 +17,15 @@ image:
 
 ## Premessa e struttura dell'articolo
 
-Ho scritto questo articolo per esercitarmi "sul campo" nella costruzione  delle formule delle *espressioni regolari* in Vim.
+Ho scritto questo articolo per esercitarmi "sul campo" nella costruzione  delle formule delle *Espressioni Regolari*, anche denominate *RegEx* in Vim.
 
 In particolare l'obiettivo è quello di "ripulire" documenti con  spazi bianchi in eccedenza sia all'inizio che alla fine di ogni riga.
 
-Per la comprensione dell'articolo è sufficiente una conoscenza di base di Vim e delle espressioni regolari integrate nell'_editor_.
+Per la comprensione dell'articolo è sufficiente una conoscenza di base di Vim e delle Espressioni Regolari integrate nell'_editor_.
 
 Le varie formule vengono  applicate su documenti interi ma, trattandosi di normalissimi comandi di ricerca in Vim, possono essere applicate a singole righe o a intervalli specifici di righe nel contesto del documento.
 
-Le formule illustrate sono tre e la costruzione è progressiva con analisi "passo per passo" della sintassi delle _espressioni regolari_.
+Le formule illustrate sono tre e la costruzione è progressiva con analisi "passo per passo" della sintassi delle _Espressioni Regolari_.
 
 La struttura dell'articolo è la seguente: prima illustro la creazione della formula per un'operazione di fine riga; poi passo alla formula inversa, ovvero per la stessa operazione ma ad inizio riga; infine combino le due formule un unica comando che effettui entrambe le operazioni.
 
@@ -39,7 +40,7 @@ Buona lettura!
 * **Situazione di riferimento**: righe con numerosi spazi bianchi dopo l'ultima parola. Può capitare quando si copiano frammenti di testo da Internet.
 * **Obiettivo**: cancellare mediante Vim tutti gli spazi bianchi dopo l'ultima parola di ogni riga con un solo comando composito.
 
-L'utilizzo delle *espressioni regolari* in Vim consente di centrare l'**obiettivo** con un singolo comando composito che si autoreplica in tutto il documento.
+L'utilizzo delle *Espressioni Regolari* in Vim consente di centrare l'**obiettivo** con un singolo comando composito che si autoreplica in tutto il documento.
 
 In pratica: occorre costruire la stringa di ricerca in modo da trovare la **situazione di riferimento** alla quale applicare l'azione di cancellazione mirata.
 
@@ -47,7 +48,7 @@ Avendo lo scopo di selezionare gli spazi bianchi a fine righa, occorre *legare* 
 
 Quindi il primo costrutto potrebbe essere, appunto: `\s+$`.
 
-Tuttavia quel costrutto è **errato** perché il simbolo `+` è considerato, nella sintassi delle *espressioni regolari*, un *metacarattere* ovvero il *carattere speciale* che non identifica se stesso ma altri caratteri.
+Tuttavia quel costrutto è **errato** perché il simbolo `+` è considerato, nella sintassi delle *Espressioni Regolari*, un *metacarattere* ovvero il *carattere speciale* che non identifica se stesso ma altri caratteri.
 
 Il metacarattere in questione è un operatore di ripetizione che corrisponde ad una sequenza predefinita.
 
@@ -74,7 +75,7 @@ L'effetto del comando viene evidenziato nella zona in grigio:
 
 Con l'eventuale aggiunta della lettera `c` per la conferma esplicita di ogni istanza.
 
-Impressione personale: la costruzione delle espressioni regolari partendo dal centro mi ricorda la costruzione delle frasi latine partendo dal verbo.
+Impressione personale: la costruzione delle Espressioni Regolari partendo dal centro mi ricorda la costruzione delle frasi latine partendo dal verbo.
 
 Sarebbe interessante approfondire questa inconsueta analogia.
 

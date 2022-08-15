@@ -1,5 +1,5 @@
 ---
-title: "Animated GIFs about basic regex in Vim and Emacs"
+title: "Animated GIFs about basic RegEx in Vim and Emacs"
 date: 2021-07-13
 canonical_url: "https://francopasut.github.io/editors/vim-easymotion/"
 slug: regex_vim_emacs
@@ -8,7 +8,7 @@ categories:
 tags:
   - Vim
   - Emacs
-  - Regexp
+  - RegEx
 image:
   placement: 3
   caption: 'Vim and Emacs together'
@@ -16,25 +16,25 @@ image:
 
 {{% toc %}}
 
-## A non-preface about regex
+## A non-preface about RegEx
 
-In my little experience as a LaTeX writer using Vim and Emacs, I sometimes use the extraordinary efficiency of *regex*, also known as *regexp* or "*Regular Expressions*".
+In my little experience as a LaTeX writer using Vim and Emacs, I sometimes use the extraordinary efficiency of *RegEx*, also known as *RegExp* or "*Regular Expressions*".
 
-Vim and Emacs, provide built-in support for *regex.*
+Vim and Emacs, provide built-in support for *RegEx.*
 
 I'll show you in the following clips some elementary uses of r*egex* in both editors.
 
 The software developer community will smile, but the following animated GIFs are intended for writers, not computer programmers.
 
-## Vim and regex
+## Vim and RegEx
 
-You can use *regex* in Vim by invoking the command line followed by a pattern like this one:
+You can use *RegEx* in Vim by invoking the command line followed by a pattern like this one:
 
 ```vim 
 :(range)s/something/something_else/options
 ```
 
-Here's a GIF with a regex basic pattern: in the following example in which you can see a phrase containing two words *dolor*. I'm going to replace both *dolor* in *gaudium.*
+Here's a GIF with a RegEx basic pattern: in the following example in which you can see a phrase containing two words *dolor*. I'm going to replace both *dolor* in *gaudium.*
 
 ![Clip 1](regex_vim_emacs_1.gif)
 
@@ -46,19 +46,19 @@ To obtain the modification of all occurrences, add the *g* option at the end:
 
 Now every *dolor* is changed into *gaudium*: target reached.
 
-## Emacs and regex(p)
+## Emacs and RegEx(p)
 
 Emacs can emulate Vim flavor by using the *Evil-mode*.
 
-In this scenario also *regex* searches are similar to those of original Vim.
+In this scenario also *RegEx* searches are similar to those of original Vim.
 
-In the real Emacs, however, you can invoke *regex* by typing `M-x`{.markup--code .markup--p-code} followed by the function`replace-regex`{.markup--code .markup--p-code}.
+In the real Emacs, however, you can invoke *RegEx* by typing `M-x`{.markup--code .markup--p-code} followed by the function`replace-regex`{.markup--code .markup--p-code}.
 
-The *regex* pattern for Emacs, in the same previous situation, is the following one:
+The *RegEx* pattern for Emacs, in the same previous situation, is the following one:
 
 `M-x replace-regexp RET dolor RET gaudium RET`{.markup--code .markup--p-code}
 
-In the GIF below you can see a running example of the same regex as above seen with Vim:
+In the GIF below you can see a running example of the same RegEx as above seen with Vim:
 
 ![Clip 3](regex_vim_emacs_3.gif)
 

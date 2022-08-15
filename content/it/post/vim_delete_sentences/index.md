@@ -7,7 +7,6 @@ categories:
   - Editors
 tags:
   - Vim
-  - Regexp
 image:
   placement: 3
   caption: 'Vim logo'

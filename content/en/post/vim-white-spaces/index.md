@@ -84,7 +84,7 @@ It would be interesting to explore this unusual analogy further.
 * **Reference situation**: lines with numerous white spaces before the first word. May happen when copying text fragments from the Internet.
 * **Objective**: delete by means of Vim all white spaces before the first word of each line with a single composite command.
 
-Using the same technique as above, one can easily construct a *Regular Expression* that performs the specualar operation: delete all whitespace present before the first word of each line.
+Using the same technique as above, one can easily construct a *Regular Expression* that performs the opposite operation: delete all whitespace present before the first word of each line.
 
 Again, it is appropriate to start with the middle part of the formula.
 

@@ -42,7 +42,7 @@ In Normal Mode it can be used to compose multi-letter commands, such as the foll
 
 The `g` Command can also be a *motion operator*, as described in [this article of mine](https://francopasut.netlify.app/post/vim_double_motions/).
 
-The same global command can still be used as a *"command ex "*, and this is exactly what is needed for this article.
+The same global command can still be used as an *"ex command"*, and this is exactly what is needed for this article.
 
 ## The Global Command  as "*ex command*"
 
@@ -158,7 +158,7 @@ Here is all the four formulas:
 * Fourth formula: `g/^\s*$\n^\s*$/d`
 * Parte that does not match: `\n`
 
-The fourth formula doubles the pattern  of the second one by attaching the _line feed_  command i already seen above (`\n`).
+The fourth formula doubles the pattern  of the second one by attaching the _line feed_  command I already mentioned  above (`\n`).
 
 The last formula cleans up the document by removing any redundant lines with no text characters leaving only one of them between the lines of text.
 

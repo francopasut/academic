@@ -129,7 +129,7 @@ Since the third formula relates to blank rows, it is necessary to compare this w
 * First formula: `g/^$/d`
 * Second formula: `g/^\s*$/d`
 * Third formula: `g/^$\n^$/d`
-* Parte that does not match: `\n`
+* Part that does not match: `\n`
 
 What's the meaning of that little piece of formula?
 
@@ -156,7 +156,7 @@ Here is all the four formulas:
 * Second formula: `g/^\s*$/d`
 * Third formula: `g/^$\n^$/d`
 * Fourth formula: `g/^\s*$\n^\s*$/d`
-* Parte that does not match: `\n`
+* Part that does not match: `\n`
 
 The fourth formula doubles the pattern  of the second one by attaching the _line feed_  command I already mentioned  above (`\n`).
 
@@ -168,4 +168,4 @@ This study allowed me to verify the extraordinary versatility of regular express
 
 It reminds me of an early construction game I used to play as a child, many years ago.
 
-Thank for you attention.
+Thank for your attention.

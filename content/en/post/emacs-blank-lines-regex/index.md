@@ -98,8 +98,7 @@ After the command is launched, only one line will remain, which is the desired t
 
 ## Reducing blank lines including whitespace to one blank line only ##
 
-Ancora più difficile: vorrei includere nella ricerca le righe contenenti spazi bianchi e utilizzare una formula come quella precedente per mantenere solo una riga vuota.
-
+Even more difficult: I would like to include lines containing whitespace in the search and use a formula like the one above to keep only a blank line.
 
 It's necessary to modify the *search* part to include  *zero to infinite* (i.e. the `*` postfix operator) whitespace from the beginning of the line.
 

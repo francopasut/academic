@@ -27,7 +27,7 @@ First of all, it may be useful to display the blank lines in the document.
 
 To preview blank lines, you can use the *whitespace-mode* function (`M-x whitespace-mode <RET>`): blank lines will be marked with dollar signs, i.e., lines in which there is no character, not even white space.
 
-At this point you can select a region or operate on the entire document from the cursor point with the `flush-lines` function, or the alias `delete-matching-lines`,  to remove  lines that respond to a 
+At this point you can select a region or operate on the entire document from the cursor point with the `flush-lines` function, or the alias `delete-matching-lines`,  to remove lines that match a search command:
 
 
 

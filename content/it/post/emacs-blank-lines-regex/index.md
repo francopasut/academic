@@ -29,7 +29,7 @@ Innanzitutto, può essere utile visualizzare le righe vuote del documento.
 
 Per visualizzare in anteprima le righe vuote, si può usare la funzione *whitespace-mode* (`M-x whitespace-mode <RET>`): le righe vuote saranno contrassegnate da segni di dollaro, cioè righe in cui non c'è alcun carattere, nemmeno uno spazio bianco.
 
-A questo punto è possibile selezionare una regione o operare sull'intero documento dal punto del cursore con la funzione `flush-lines`, o con l'alias `delete-matching-lines`, per rimuovere le righe che rispondono a un comando 
+A questo punto è possibile selezionare una regione o operare sull'intero documento dal punto del cursore con la funzione `flush-lines`, o con l'alias `delete-matching-lines`, per rimuovere le righe che corrispondono al risultato di una ricerca:
 
 
 

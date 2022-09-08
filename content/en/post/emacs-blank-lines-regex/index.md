@@ -117,7 +117,7 @@ By inserting the new fragment (with escaping)  after the beginning of the previo
 ```
 ^\(^C-q<SPC>*C-qC-j\)\{2,\}
 ```
-We will visualize , therefore,  la formula in the minibuffer ad follows:
+We will visualize , therefore,  the formula in the minibuffer as follows:
 
 ```
 ^\(^ *

@@ -29,7 +29,7 @@ The application does not contain snippets but you can create your own by followi
 
 [Honza vim-snippets](https://github.com/honza/vim-snippets) contains an extensive collection of snippets for various languages.
 
-in fact into the [Honza GitHub repository](https://github.com/honza/vim-snippets) you'll find two separate collections of snippets for the same languages.
+In fact into the [Honza GitHub repository](https://github.com/honza/vim-snippets) you'll find two separate collections of snippets for the same languages.
 
 What's the difference about them? This is the argument we are going to talk about in this article.
 
@@ -42,12 +42,12 @@ In the Honza vim-snippets GitHub repository you will find, as you can see in the
 
 ![honza folders image](honza-folders-decorated.jpg)
 
-The programmer himself offers this explanations at the top of the GitHub page:
+The programmer himself offers these explanations at the top of the GitHub page:
 
 - snippets/*: snippets using snipMate format
 - UltiSnips/*: snippets using UltiSnips format
 
-Therefore, the two collections are targeted for two different snippet managers.
+Therefore, the two collections are targeted for two different snippets managers.
 
 ## Study on the two lists of snippets
 
@@ -66,7 +66,7 @@ To find a solution, I did a lot of research and testing.
 
 Of course, I do not guarantee that this is the only possible solution. It works, though!
 
-First of all,  I've created a folder locally called "UltiSnips",  but you can call it whatever you want.
+Foremost,  I've created a folder locally called "UltiSnips",  but you can call it whatever you want.
 
 Then I entered in *.vimrc* the configuration to activate that folder, with code such as the following (*MyName* is the user name for the operating system):
 
@@ -83,7 +83,7 @@ This means that the files in the UltiSnips collection are self-executing.
 
 Of course, in the latter case the *online honza snippets* are not available.
 
-The *local snippets* also work also on selected parts of text: you can apply the snippets in VISUAL mode to use the rest highlighted as a precompiled snippet.
+The *local snippets* work also on selected parts of text: you can apply the snippets in VISUAL mode to use the rest highlighted as a precompiled snippet.
 
 In the local folder you can also easily add custom snippets as well (for this you can read [this article](https://francopasut.netlify.app/post/vim_markdown_snippet_url/).
 

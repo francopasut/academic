@@ -17,7 +17,7 @@ image:
 
 ## Abstract
 
-Use Mozilla Firefox as a Markdown documents viewer written under Linux Ubuntu, Fedora and Arch, with mention of MS Windows and macOS.
+Use Mozilla Firefox as a Markdown documents viewer written on Linux Ubuntu, Fedora and Arch, with mention of MS Windows and macOS.
 
 ## Mozilla Firefox and the Markdown layout
 

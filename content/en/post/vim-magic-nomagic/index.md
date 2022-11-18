@@ -24,7 +24,7 @@ To understand what *Magic Mode* is, the primary source is the item `:help magic`
 In a few words:
 - The *Magic Mode* refers to the *regular expressions*
 - The *Magic Mode* is enabled by default in Vim.
-- You can explicity invoke che *Magic Mode* with the `\m` command in the RegEx search area.
+- You can explicitly invoke the *Magic Mode* with the `\m` command in the RegEx search area.
 - To deactivate it you must set `\M` (capitalized *m*) in the RegEx search area.
 - When you use the `\M` command you invoke the *Nomagic Mode*.
 - *Nomagic Mode* turns "*almost all special regex symbols into ordinary ones unless they start with a backslash*".
@@ -135,6 +135,6 @@ Simplifying the formula again, we can write it even more easily as follows:
 %s/.pdf\|.tiff\|.png//g
 ```
 
-Therefore the syntaxes `%s/\M.pdf\.tiff\.png//g` and `%s/.pdf\.tiff\.png//g` are, in fact, equivalent and the result will be the same.
+Therefore,  the syntaxes `%s/\M.pdf\.tiff\.png//g` and `%s/.pdf\.tiff\.png//g` are, in fact, equivalent and the result will be the same.
 
 Thank you for your attention.

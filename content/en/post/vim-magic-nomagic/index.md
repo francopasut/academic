@@ -10,7 +10,7 @@ tags:
 image:
   placement: 3
   preview_only: false 
-  caption: 'Vim Magic or Nomagic'
+  caption: 'Vim Is Magic?'
 ---
 
 {{% toc %}}

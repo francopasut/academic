@@ -25,8 +25,8 @@ typesetting system.
 Vim and LaTeX together make a powerful writing system, but an add-on is
 needed to relate them.
 
-[VimTex](https://github.com/lervag/vimtex) provides exactly that target:
-relating Vim to LaTeX and it does its job very well.
+[VimTex](https://github.com/lervag/vimtex) provides exactly that target by
+relating Vim to LaTeX, and it does its job very well.
 
 So Vim and VimTex is a smart system for every kind of writer in LaTeX.
 
@@ -42,7 +42,7 @@ I assume that those who use LaTeX already know the difference between
 commands and environments.
 
 VimTeX has some built-in functions for managing commands and
-environments but only to **delete** or **change** them.
+environments, but only to **delete** or **change** them.
 
 The summary table of built-in surround functions is the following:
 
@@ -127,7 +127,7 @@ for LaTeX:
 | Create Surrounding Environment | `ys(object)e` |
 |                                |               |
 
-Obviously, you need to insert the usual motion markers or text objetcs:
+Obviously, you need to insert the usual motion markers or text objects:
 for example:
 
 - `yswe center` to surround a word by the *center* environment,

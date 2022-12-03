@@ -27,7 +27,7 @@ The basic structure of the Global Command is very simple:
 - `/pattern/` is the "search zone" for matching patterns in the
   document.
 - `/command/` is the command applied to the entire lines where the
-  results is.
+  results are.
 
 The basic structure is, therefore, biphasic: an initial search phase and
 a command phase.
@@ -41,7 +41,7 @@ lines:
 	jkl
 	mno
 
-If you want to delete the line containing the  "a" letter you can use the
+If you want to delete the line containing the  "a" letter,  you can use the
 following command 
 `:g/a/d` in which:
 
@@ -54,7 +54,7 @@ following command
 
 ## Vim Global Command and the range pattern
 
-But if you want to delete a *range of lines* matching an initial and
+If you want to delete a *range of lines* matching an initial and
 final pattern, you have to use a slightly more structured *global
 command*.
 
@@ -86,7 +86,7 @@ final matching pattern, you must use the option `-1` after the final
 pattern:
 `:g/a/,/k/-1d`.
 
-Combining the two previuos targets: if you have to delete the range
+Combining the two previous targets: if you have to delete the range
 starting to the line **after** the initial matching pattern and until
 the line **before** the final matching pattern, you must use both the
 options `+1` and `-1`:

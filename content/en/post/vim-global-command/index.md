@@ -16,6 +16,10 @@ image:
 
 ## Vim and the Global Command: basic structure
 
+This post is not a complete review of Vim's Global Command but is just a series of personal observations on it.
+
+You can find a good review, written by those who know much more about it than I do, [on this page](https://dev.to/iggredible/discovering-vim-global-command-49ad).
+
 With the "Global Command" of Vim (`g`) you can replicate various
 *ex-commands* on multiple lines.
 

@@ -16,6 +16,10 @@ image:
 
 ## Vim e il comando globale: struttura di base
 
+Questo articolo non è una completa disamina del Comando Globale in Vim ma è solo una serie di osservazioni personali sullo stesso.
+
+Potete trovare una buona rassegna, scritta da chi ne sa molto più di me, [in questa pagina](https://dev.to/iggredible/discovering-vim-global-command-49ad).
+
 Con il "Comando globale" di Vim (`g`) è possibile replicare vari
 *ex-comandi* su più righe.
 

@@ -10,7 +10,7 @@ tags:
 image:
   placement: 3
   preview_only: false 
-  caption: 'Vim and Emacs al last together'
+  caption: 'Vim and Emacs finalmente insieme'
 ---
 
 {{% toc %}}

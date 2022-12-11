@@ -74,7 +74,7 @@ Il risultato tra le due versioni dovrebbe essere il medesimo, ma in
   \end{center}
   ```
 
-- Secondo esempio
+- Secondo esempio:
 
   ``` latex
   \begin{center}

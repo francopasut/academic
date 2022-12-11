@@ -64,14 +64,14 @@ The result between the two versions should be the same, but in fact it
 
   Here are two examples with the `center` tag: the first created with `yswe` and the second with `ysse`:
 
-- Primo esempio:
+- First example:
 
   ``` latex
   \begin{center}
   \end{center}
   ```
 
-- Secondo esempio
+- Second example:
 
   ``` latex
   \begin{center}

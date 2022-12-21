@@ -76,8 +76,8 @@ the dedicated Markdown GFM table markup code.
 
 Using Pandoc with the standard configuration (such as
 "`Pandoc input_file -or output_file`") the result is better but still
-not enough, as we will see in the examples below.\*\* Some examples to
-make it clearer
+not enough, as we will see in the examples below.
+## Some examples to make it clearer
 
 I report some export examples from the Org-Mode version of [this article
 of mine](https://francopasut.netlify.app/it/post/vim_vimtex_surround/).

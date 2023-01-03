@@ -31,7 +31,7 @@ e colleghi che non hanno ancora avuto l'opportunità di apprezzarlo.
 In questi casi è necessario, quindi, convertire il testo in formato
 leggibile software di videoscrittura. Principalmente mi riferisco al
 formato *.docx*, tipico di MS Word ma leggibile anche da altri sistemi
-analoghi, come ad esempio *LibreOffice Write* che ho utilizzato per
+analoghi, come ad esempio *LibreOffice Writer* che ho utilizzato per
 questo articolo.
 
 La procedura di conversione non è univoca e neppure immediata: a volte è
@@ -102,7 +102,7 @@ effettuare le seguenti modifiche:
   ecc.
 
   Alla fine si ottiene un PDF, esportato in formato compatibile con
-  Microsoft Word o LibreOffice Write, con le stesse caratteristiche
+  Microsoft Word o LibreOffice Writer, con le stesse caratteristiche
   strutturali dell'originale in LaTeX.
 
 ## Esempi di esportazioni di documenti
@@ -115,7 +115,7 @@ da LaTeX:
 ![](esempio_latex_it.png)
 
 Nel secondo esempio riporto l'esito della conversione applicando il
-comando *htlatex* ed aprendo, poi, il l'HTML con LibreOffice Write:
+comando *htlatex* ed aprendo, poi, il l'HTML con LibreOffice Writer:
 
 ![](esempio_htlatex_it.png)
 

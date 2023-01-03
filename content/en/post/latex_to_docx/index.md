@@ -32,7 +32,7 @@ appreciate it.
 In such cases, it is necessary to convert the text into readable word
 processing software format. Mainly I am referring to the *.docx* format,
 typical of MS Word but also readable by other similar systems, such as
-*LibreOffice Write* that I used for this article.
+*LibreOffice Writer* that I used for this article.
 
 The conversion procedure is neither unique nor immediate: sometimes it
 is necessary to complete the result with some minor intervention.
@@ -92,7 +92,7 @@ the following changes:
   obtain the sequence 1.1, 1.2, 2.1, 2.2, etc.
 
 In the end you get a PDF, exported in a format compatible with Microsoft
-Word or LibreOffice Write, with the same structural characteristics as
+Word or LibreOffice Writer, with the same structural characteristics as
 the original in LaTeX.
 
 ## Document export examples
@@ -105,7 +105,7 @@ from LaTeX:
 ![](esempio_latex_en.png)
 
 In the second example, I show the outcome of the conversion by applying
-the *htlatex* command and then opening, the HTML with LibreOffice Write:
+the *htlatex* command and then opening, the HTML with LibreOffice Writer:
 
 ![](esempio_htlatex_en.png)
 

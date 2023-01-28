@@ -14,7 +14,7 @@ image:
 
 {{% toc %}}
 
-# Cos'è GIMP?
+## Cos'è GIMP?
 
 [GIMP](https://www.gimp.org/) è un ottimo editor di immagini multipiattaforma: Windows, macOS e qualsiasi distribuzione GNU/Linux.
 
@@ -22,7 +22,7 @@ image:
 
 Perfetto per provare a creare un "collage" di immagini sovrapposte o affiancate, anche con diverse dimensioni, e ad esportare il risultato in unica immagine in formato .jpg o .png.
 
-# Affiancamento e sovrapposizione di immagini
+## Affiancamento e sovrapposizione di immagini
 
 Ho avuto più volte necessità di "mescolare" diverse immagini affiancate o sovrapposte.
 
@@ -45,7 +45,7 @@ Dopo avere aggiunto la seconda, terza, ... ennesima immagine, le ipotesi possibi
 
 Di seguito: come risolvere entrambe le ipotesi.
 
-# Ipotesi di Contenitore più grande dell'immagine complessiva
+## Ipotesi di Contenitore più grande dell'immagine complessiva
 
 Nell'immagine seguente trovate un esempio di Contenitore più grande dell'immagine, nella fattispecie costituita dal logo Emacs:
 
@@ -55,7 +55,7 @@ Quindi occorre ridurre il contenitone alle dimensioni dell'immagine.
 
 Per questa operazione si usa la voce di menù `Immagine` e la sottovoce `Ritaglia al contenuto`.
 
-# Ipotesi di immagine complessiva più grande del Contenitore
+## Ipotesi di immagine complessiva più grande del Contenitore
 
 Nell'immagine seguente trovate un esempio di logo Vim debordante, quindi più grande rispetto al Contenitore in GIMP:
 
@@ -69,7 +69,7 @@ In questo caso potrebbe accadere che la **visualizzazione** dell'immagine ecceda
 
 Per ridurre la visualizzazione alle dimensioni del monitor si usa la voce `Visualizza`, la sottovoce `Zoom` e l'ulteriore sottovoce `Adatta Immagine alla Finestra` (combinazione veloce: `Maiusc-Ctrl-J`).
 
-# Esportazione del risultato
+## Esportazione del risultato
 
 Alla fine di tutte le aggiunte, elaborazioni e modifiche, si salva il risultato con `File` seguito da `Esporta come...` (combinazione veloce `Maiusc-Ctrl-E`) scegliendo il formato desierato (.png o .jpg).
 

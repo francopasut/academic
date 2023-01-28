@@ -15,7 +15,7 @@ image:
 {{% toc %}}
 
 
-# What is GIMP?
+## What is GIMP?
 
 [GIMP](https://www.gimp.org/) is an excellent cross-platform image editor: Windows, macOS and any GNU/Linux distribution.
 
@@ -23,7 +23,7 @@ It is a full-featured software, strictly open-source and free.
 
 Perfect for trying to create a "collage" of overlapping or side-by-side images, even with different sizes, and export the result as a single image in .jpg or .png format.
 
-# Side-by-side and overlapping images
+## Side-by-side and overlapping images
 
 I have repeatedly needed to "blend" several images side by side or overlapping.
 
@@ -46,7 +46,7 @@ After adding the second, third, ... nth image, there are basically two possible 
 
 Below: how to solve both scenarios.
 
-# Canvas (Container) larger than the overall image
+## Canvas (Container) larger than the overall image
 
 In the following image you will find an example of a Canvas larger than the image, in this case consisting of the Emacs logo:
 
@@ -56,7 +56,7 @@ Then  you need to reduce the canvas to the image.
 
 For this operation you use the `Image` menu item and the sub-item `Crop to Content`.
 
-# Overall image larger than the Canvas (Container)
+## Overall image larger than the Canvas (Container)
 
 In the following image you will find an example of an overflowing Vim logo, thus larger than the canvas in GIMP:
 
@@ -70,7 +70,7 @@ In this case it may happen that the **display** of the image exceeds the compute
 
 To reduce the display to the size of the monitor you use the `View` item, the sub-item `Zoom` and the additional sub-item `Fit Image in Window` (quick combination: `Shift-Ctrl-J`).
 
-# Exporting the result.
+## Exporting the result.
 
 At the end of all additions, processing and changes, you save the result with `File` followed by `Export as...` (quick combination `Shift-Ctrl-E`) choosing the desired format (.png or .jpg).
 

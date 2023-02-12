@@ -1,5 +1,5 @@
 ---
-title: "Vim and the preview in Markdown"
+title: "Vim and the Markdown preview"
 date: 2023-02-11
 slug:  vim_markdown_preview_plugin
 categories:
@@ -57,7 +57,7 @@ or (for those using *yay*):
 $ yay -S npm
 ```
 
-Arch proposed me, immediately afterwards, to upgrade to `npm@9.3.0` and I did follow the directions with:
+Arch proposed me, immediately afterward, to upgrade to `npm@9.3.0` with:
 
 ```bash
 sudo npm install -g npm@9.3.0.
@@ -83,11 +83,7 @@ Finally, to avoid typing the entire `LivedownToggle` command every time, you nee
 nmap gm :LivedownToggle<CR> 
 ```
 
-In this case I enabled the shortcut with the combination `gm` but you can use another one of your choice, taking care that it does not conflict with another similar command already in the system.
-
-To launch the preview or disable it you use the keyboard combination as set above.
-
-Obviously in this case, the combination `gm` is used.
+Instead of the `gm` combination you can use others being careful not to create conflict with other system command.
 
 While activating the *plugin* each time the document is saved (Vim command `:w`) the preview is automatically updated.
 
@@ -106,7 +102,7 @@ sudo pacman -S python2-pip # for Python 2
 sudo pacman -S python-pip # for Phyton 3 
 ```
 
-On Debian and derivatives (Ubuntu, Mint) you use.
+On Debian and derivatives (Ubuntu, Mint) you use:
 
 ```bash
 install python-pip #python 2
@@ -198,13 +194,9 @@ I would add, also, that the `Ctrl-p` command is a bit more in "Emacs style" than
 
 I have, also, found that updating with `Ctrl-p` after adding text causes error messages that, in any case, do not prevent the view from updating.
 
-## Final comments
+## Simple solution without plugins
 
-While they are two excellent solutions, I personally prefer the speed, convenience and stability of "Livedown".
-
-The immediate and automatic update after saving the document gives reason for the "live" name of the *plugin* ("Live + Markdown" = "Livedown").
-
-In any case, it is possible to use a "de facto" preview **without any *plugin*:** just open the Markdown document with a navigator (usually one uses the `Ctrl-o` command) and refresh the navigator view (usually one uses the `Ctrl-r` command in the navigator window).
+In any case, it is possible to use a "de facto" preview **without any *plugin*:** just open the Markdown document with a navigator (usually one uses the `Ctrl-o` command) and refresh the navigator view (`Ctrl-r`).
 
 The advantage of this simple system is also to be able to keep the previews of many documents open at the same time (example, the same document in Italian and English).
 

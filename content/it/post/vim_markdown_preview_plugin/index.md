@@ -10,7 +10,7 @@ tags:
 image:
   placement: 3
   preview_only: false 
-  caption: 'Vim and Markdown'
+  caption: 'Vim e Markdown'
 ---
 
 {{% toc %}}
@@ -107,7 +107,7 @@ sudo pacman -S python-pip # per Phyton 3
 ```
 
 
-In Debian e derivate (Ubuntu, Mint) si usa
+In Debian e derivate (Ubuntu, Mint) si usa:
 
 ```bash
 install python-pip	#python 2
@@ -201,13 +201,9 @@ Aggiungo, inoltre, che il comando `Ctrl-p` è un po' più in "stile Emacs" che i
 
 Ho, inoltre, rilevato che l'aggiornamento con `Ctrl-p` dopo l'aggiunta di testo provoca dei messaggi di errore che, in ogni caso, non impediscono l'aggiornamento della visualizzazione.
 
-## Osservazioni conclusive
+## Una semplice soluzione senza plugin
 
-Pur essendo due ottime soluzioni, personalmente preferisco la velocità, comodità e stabilità di "Livedown".
-
-L'aggiornamento immediato e automatico dopo il salvataggio del documento rende ragione del nome "live" del *plugin* ("Live + Markdown" = "Livedown").
-
-In ogni caso è possibile utilizzare un anteprima "di fatto" **senza alcun *plugin*:** basta aprire il documento Markdown con un navigatore (di solito si usa il comando `Ctrl-o`) e aggiornare la visualizzazione del navigatore (di solito si usa il comando `Ctrl-r` nella finestra del navigatore).
+In ogni caso è possibile utilizzare un anteprima "di fatto" **senza alcun *plugin*:** basta aprire il documento Markdown con un navigatore (di solito si usa il comando `Ctrl-o`) e aggiornare la visualizzazione del navigatore (`Ctrl-r`).
 
 Il vantaggio di questo semplice sistema è anche quello di poter tenere aperti gli anteprima di molti documenti contemporaneamente (esempio uno stesso documento in italiano ed inglese).
 

@@ -163,7 +163,7 @@ At this point I subjected the usual Fauré fragment to optical recognition and *
 
 I report, as before, the start and finish screen:
 
-* **Starting **PDF in LilyPond**: 
+* **Starting PDF in LilyPond**: 
 
 
 

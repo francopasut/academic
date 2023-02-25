@@ -1,5 +1,5 @@
 ---
-title: "A study on the export and import of scores between LilyPond and MuseScore via MusicXML"
+title: "A study on the export and import of musical scores between LilyPond and MuseScore via MusicXML"
 date: 2023-02-25
 slug:  lilypond_musescore_musicxml
 categories:

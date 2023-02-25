@@ -1,5 +1,5 @@
 ---
-title: "Uno studio su esportazione e importazione di partiture tra LilyPond e MuseScore via MusicXML"
+title: "Uno studio sull'esportazione e importazione di partiture musicali tra LilyPond e MuseScore via MusicXML"
 date: 2023-02-25
 slug:  lilypond_musescore_musicxml
 categories:

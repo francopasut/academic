@@ -9,7 +9,7 @@ tags:
 image:
   placement: 3
   preview_only: false 
-  caption: 'Immagine e documente'
+  caption: 'Immagine e documento'
 ---
 
 {{% toc %}}

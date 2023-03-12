@@ -105,13 +105,13 @@ Nel paragrafo seguente trovate, dopo gli esempi già menzionati nel paragrafo pr
 
 L'immagine seguente è convertita da un PDF generato da LaTeX con la classe "article":
 
-![document full](document_full.png)
+![document full](document_full_image.jpg)
 
 Da notare gli evidenti spazi bianchi intorno al testo.
 
 L'immagine seguente è, invece, convertita dallo stesso PDF con gli spazi ritagliati in automatico utilizzando il comando `pdfcrop document.pdf`:
 
-![document crop](document_crop.png)
+![document crop](document_crop_image.jpg)
 
 Il comando `pdfcrop` ha scontornato i margini bianchi,  lasciando soltanto la parte effettivamente scritta.
 

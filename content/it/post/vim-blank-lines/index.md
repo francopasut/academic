@@ -108,7 +108,7 @@ La differenza tra la prima e la seconda formula è il frammento `\s*`: cosa sign
 
 Riprendendo il riassunto alla fine del paragrafo precedente, possiamo tradurre in linguaggio umano come segue: *trovare le righe vuote e le righe con uno o più spazi bianchi e cancellarle tutte*.
 
-## E ora: ridurre le righe vuote  consecutivo ad una sola
+## E ora: ridurre le righe vuote  consecutive ad una sola
 
 Le prime due formule sono facilmente reperibili sul Web. Ora, però, costruiamo altre due formule basate sulle precedenti.
 

@@ -1,5 +1,5 @@
 ---
-title: 'Emacs, configurazione portabile con "use-package" e "straight"'
+title: 'Emacs, configurazione portabile auto-installante con "use-package" e "straight"'
 date: 2023-04-25
 slug:  emacs_portable_use-package_straight
 categories:
@@ -72,7 +72,7 @@ Ecco il codice di configurazione per  installare "straight"  in  Emacs:
   (load bootstrap-file nil 'nomessage))
 ```
 
-## Configurazione di use-package.
+## Configurazione di "use-package".
 
 Il seguente codice include "use-package" nella configurazione:
 
@@ -92,7 +92,7 @@ Il codice precedente garantisce che "use-package" sia sempre installato utilizza
 
 
 
-## Piccolo esempio e piccola analisi.
+## Piccolo esempio con piccola analisi.
 
 Ad esempio, per installare il pacchetto "magit", la configurazione può essere scritta come segue:
 
@@ -169,6 +169,6 @@ Dopo la parte di configurazione sopra riportata, aggiungo una selezione di  appl
 ```
 ## A adesso?
 
-Con la stessa sintassi è possibile, quindi, aggiungere una serie virtualmente infinita di applicazioni ed esportare la configurazione in ogni ambiente semplicemente copiando la configurazione.
+Con la stessa sintassi è possibile, quindi, aggiungere una serie virtualmente infinita di applicazioni ed esportare la configurazione corrente in modo auto-installante semplicemente copiando il relativo codice.
 
 Grazie per l'attenzione.

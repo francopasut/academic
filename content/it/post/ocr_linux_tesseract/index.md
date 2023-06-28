@@ -42,7 +42,7 @@ Il motore del sistema è *Tesseract* la cui installazione,   bene descritta nell
 
 - Su Debian e derivate, tra cui Ubuntu e Mint: `sudo apt-get install tesseract-ocr`.
 - Su Fedora: `sudo dnf install tesseract`.
-- Su Arch e derivate, tra cui Manjaro e EndeavourOS: `sudo pacman -Syu tesseract` o `yay -Syu tesseract`.
+- Su Arch e derivate, tra cui Manjaro e EndeavourOS: `sudo pacman -S tesseract` o `yay -S tesseract`.
 
 Attenzione: per la "famiglia" *Debian* il componente è denominato *tesseract-ocr* mentre per le altre distribuzioni, semplicemente *tesseract*.
 
@@ -50,7 +50,7 @@ Per l'installazione di lingue aggiuntive occorre utilizzare il sistema già indi
 
 - Su Debian e derivate, tra cui Ubuntu e Mint: `sudo apt-get install tesseract-ocr-ita`.
 - Su Fedora: `sudo dnf install tesseract-langpack-ita`.
-- Su Arch e derivate, tra cui Manjaro e EndeavourOS: `sudo pacman -Syu tesseract-data-ita` o `yay -Syu tesseract-data-ita`.
+- Su Arch e derivate, tra cui Manjaro e EndeavourOS: `sudo pacman -S tesseract-data-ita` o `yay -S tesseract-data-ita`. Arch rende anche possibile installare i dati unitamente al programma di base.
 
 Occorre, inoltre, verificare che nel sistema sia presente il software *pdftoppm* che fa parte del pacchetto *poppler-utils*.
 
@@ -112,7 +112,7 @@ rm text-document-*
 cancellano automaticamente *file* sparsi generati durante il processo di riconocimento ottico e non più necessari dopo l'accorpamento del testo  in *document.txt*.
 
 
-Rendo eseguibile il file con `chmod u+x ocr sh`.
+Rendo eseguibile il file con `chmod u+x ocr sh`, per il proprietario, o `chmod a+x` per tutti gli utenti.
 
 Lancio  il comando avendo un documento in PDF denominato "document.pdf" presente nella stessa cartella dell'eseguibile.
 

@@ -55,51 +55,29 @@ On the right side of the *editor* window is a series of vertical menus: *Propert
 
 Adding a border requires pressing the last button: *Tools* and choose the *Decorate* tab followed by *Add Border*:
 
-![digiKam Decorate Add Border](digikam-decorate-border-en.png)
+![digiKam Decorate Add Border](digikam-decore-border-en.png)
 
-The rest is very intuitive. You need to choose a **type** of border from the various options in the *Type* menu as well as choose the colors and opzio## L'applicazione "digiKam": dalla decorazione singola a quella seriale.
-
-*DigiKam* è un'applicazione multipiattaforma, disponibile, per quanto abbia potuto provare direttamente,  su ogni distribuzione *GNU/Linux* nonché  per *Windows* e *macOS*.
-
-Pur essendo un software *open source*, ha funzionalità di gestione delle immagini digitali, di livello professionale,  anche in formato RAW.
-
-Per la scrittura di questo articolo ho utilizzato la versione 8.1.0. in Fedora Linux.
-
-L'applicazione ha una vasta dotazione di strumenti di modifica per  immagini singole o multiple.
-
-La pagina iniziale di *digiKam* presenta una riga di menu sulla parte superiore ed una serie di pulsanti subito sotto.
-
-Le immagini che seguono in questo paragrafo, sono state decorate proprio con *digiKam*.
-
-![Pagina iniziale digiKam](digikam-screen-menu-en.png)
-
-Per l'aggiunta singola occorre selezionare un'immagine ed aprirla con il pulsante *Editor delle immagini*, ovvero il primo sulla sinistra, come visibile sull'immagine di sopra.
-
-Sulla destra della finestra dell'*editor* si trova una serie di menu verticali: *Proprietà, Metadati, Colori, Didascalie, Versioni, Strumenti*.
-
-Per l'aggiunta di un bordo occorre premere l'ultimo pulsante: *Strumenti* e scegliere la scheda *Decora* seguita da *Aggiungi bordo*:
-
-![digiKam Decora Aggiungi Bordo](digikam-decore-border-en.png)
-
-Il resto è molto intuitivo. Occorre scegliere un **tipo** di bordo tra le varie opzioni nel menu *Tipo* nonché scegliere i colori e l'opzione per il mantenimento delle proporzioni:
+The rest is very intuitive. You need to choose a **type** of border from the various options in the *Type* menu as well as choose the colors and opzio
 
 ![digiKam Aggiungi Bordo](digikam-add-border-en.png)
 
-La  descrizione dell'immagine "singola" è utile per l'impostazione della modifica "seriale" che viene attivata premendo il pulsante *Gestione elaborazione in serie* del menu principale riportato nella prima immagine di questo post.
+The "single" image description is useful for setting up "serial" editing, which is activated by pressing the *Series Processing Manager* button on the main menu shown in the first image of this post.
 
 
 
-Arrivati a questo punto, è molto semplice passare dall'elaborazione singola a quella seriale: basta usare la funzione *Gestore elaborazione in serie* presente nel menù iniziale,  sulla destra rispetto alla voce *Editor delle immagini*.
+Having reached this point, it is very easy to switch from single to serial processing: just use the *Serial Processing Manager* function found in the home menu, on the right-hand side with respect to the *Image Editor* item.
 
-In questo modo le specifiche funzioni già presenti nella modifica singola vengono rese disponibili per una serie di immagini.
+In this way the specific functions already present in single editing are made available for a series of images.
 
-Ecco l'immagine corrispondente alla funzione di  *decorazione* mediante aggiunta del bordo già sopra descritto ma ora ottenuto in modalità seriale:
+Here is the image corresponding to the function of *decoration* by adding the border already described above but now obtained in serial mode:
 
-![Aggiungi bordo seriale](digikam-batch-add-border-en.png)
 
-In questa modalità sono disponibili tutte le opzioni della precedente modalità singola.
+![Decorate multiple images](digikam-batch-add-border-en.png)
 
-Una volta scelte le modifiche, basta premere il tasto *Avvia* in alto a sinistra nella finestra della gestione seriale di DigiKam.
+In this mode, all the options of the previous single mode are available.
+
+Once the changes have been chosen, simply press the *Start* button in the upper left corner of DigiKam's serial management window.
+
 
 ## Decorating from the command line with ImageMagick.
 

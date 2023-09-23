@@ -57,7 +57,7 @@ Adding a border requires pressing the last button: *Tools* and choose the *Decor
 
 ![digiKam Decorate Add Border](digikam-decore-border-en.png)
 
-The rest is very intuitive. You need to choose a **type** of border from the various options in the *Type* menu as well as choose the colors and opzio
+The rest is very intuitive. You need to choose a **type** of border from the various options in the *Type* menu as well as choose colors and options:
 
 ![digiKam Aggiungi Bordo](digikam-add-border-en.png)
 

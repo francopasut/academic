@@ -8,7 +8,7 @@ tags:
   - Linux
 image:
   placement: 3
-  preview_only: true 
+  preview_only: false 
   caption: 'Linux names confusion'
 ---
 

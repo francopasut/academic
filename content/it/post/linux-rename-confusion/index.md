@@ -118,18 +118,16 @@ I comandi `rename` di Debian e Ubuntu, `prename` in Fedora e `perl-rename` in Ar
 
 Lo schema  fondamentale di `rename`,  in versione Debian e Ubuntu, `prename` in Fedora e `perl-rename` in Arch è il seguente:
 
-Ad esempio: per sostituire l'estensione .txt con l'estensione .bak su tutti i documenti di testo si usa la seguente *espressione regolare* (a seconda delle varie distribuzioni):
+```bash
+nome-comando 's/old_name/new_name/' file(s)
+```
+
+Ad esempio,  per sostituire l'estensione *.txt* con l'estensione *.bak* su tutti i documenti di testo si usa la seguente *espressione regolare* (a seconda delle varie distribuzioni):
 
 ```bash
 - rename 's/\.txt$/.bak/' *.txt
 - prename 's/\.txt$/.bak/' *.txt
 - perl-rename 's/\.txt$/.bak/' *.txt
-```
-
-Quindi lo schema di base è il seguente:
-
-```bash
-nome-comando 's/old_name/new_name/' file(s)
 ```
 
 Spero di avere chiarito questa potenziale confusioni tra comandi per rinominare i documenti in  diverse distribuzioni di GNU/Linux.

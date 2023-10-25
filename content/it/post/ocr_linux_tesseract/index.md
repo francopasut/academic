@@ -112,7 +112,7 @@ rm text-document-*
 cancellano automaticamente *file* sparsi generati durante il processo di riconocimento ottico e non più necessari dopo l'accorpamento del testo  in *document.txt*.
 
 
-Rendo eseguibile il file con `chmod u+x ocr sh`, per il proprietario, o `chmod a+x` per tutti gli utenti.
+Rendo eseguibile il file con `chmod u+x ocr.sh`, per il proprietario, o `chmod a+x` per tutti gli utenti.
 
 Lancio  il comando avendo un documento in PDF denominato "document.pdf" presente nella stessa cartella dell'eseguibile.
 

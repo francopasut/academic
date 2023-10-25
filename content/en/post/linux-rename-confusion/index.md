@@ -122,7 +122,11 @@ The `rename` commands in Debian and Ubuntu, `prename` in Fedora and `perl-rename
 
 The basic pattern of `rename` in Debian and Ubuntu, `prename` in Fedora and `perl-rename` in Arch is as follows:
 
-For example: to replace the .txt extension with the .bak extension on all text documents, the following *regular expression* is used (depending on the various distributions):
+```bash
+command-name 's/old_name/new_name/' file(s)
+```
+
+For example, to replace the *.txt* extension with the *.bak* extension on all text documents, the following *regular expression* is used (depending on the various distributions):
 
 ```bash
 - rename 's/\.txt$/.bak/' *.txt
@@ -130,11 +134,6 @@ For example: to replace the .txt extension with the .bak extension on all text d
 - perl-rename 's/\.txt$/.bak/' *.txt
 ```
 
-So the basic pattern is as follows:
-
-```bash
-command-name 's/old_name/new_name/' file(s)
-```
 
 I hope I have cleared up this potential confusion between commands for renaming documents in different GNU/Linux distributions.
 

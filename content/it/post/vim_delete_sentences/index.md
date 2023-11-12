@@ -17,7 +17,7 @@ image:
 
 
 
-## Vim reduces the strain on your eyes 
+## Vim riduce l'affaticamento degli occhi
 
 Un'incredibile caratteristica di Vim è la sua capacità di effettuare operazioni all'interno di interi blocchi di testo chiamati "Oggetti di Testo", come ad esempio parole, frasi e paragrafi, a prescindere dalla posizione del cursore all'interno degli oggetti.
 

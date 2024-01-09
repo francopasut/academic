@@ -1,6 +1,5 @@
 ---
-title: "From Text Objects in Vim to Text Blocks in Gutenberg for WordPress.
-"
+title: "From Text Objects in Vim to Text Blocks in Gutenberg for WordPress."
 date: 2023-11-27
 slug:  vim-vs-gutenberg
 categories:

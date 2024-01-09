@@ -132,7 +132,7 @@ Occorre prestare attenzione al *carattere di sottolineatura* ovvero al *trattino
 
 Se nel nome dei documenti da collegare fosse contenuto tale carattere, il linguaggio *LaTeX* restituirebbe  un errore.
 
-In pratica: nella seguente formula:
+In pratica, nella seguente formula:
 
 ```tex
 \item \href[pdfnewwindow]{run:./DOC_01.pdf}{DOC_01.pdf}

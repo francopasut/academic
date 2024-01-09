@@ -101,7 +101,7 @@ To achieve this, one must select the rows to be processed and use the following 
 
 ##   4. Explanation of the RegEx formula.
 
-Before analyzing the *RegEx* formula, it should be borne in mind that in the Regular Expressions embedded in Vim, round brackets allow you to define **catchgroups** which can, then, be used, with a numbering such as *"\1, \2"*, etc., for substitution elsewhere in the formula.
+Before analyzing the *RegEx* formula, you have to consider that in the Regular Expressions embedded in Vim, round brackets allow you to define **catchgroups** which can, then, be used, with a numbering such as *"\1, \2"*, etc., for substitution elsewhere in the formula.
 
 - The `:%s/` fragment initiates substitution on all lines of the document.
 - The `\\item fragment \(.*\.pdf\)` captures the part of the document name that **follows *\item* and ends with *.pdf*.**
@@ -114,7 +114,7 @@ Attention should be paid to the *underlining character* i.e., the *low stroke* (
 
 If the name of the documents to be linked contained such a character, the *LaTeX* language would return an error.
 
-In practice: in the following formula:
+In  the following formula:
 
 ```tex
 \item \href[pdfnewwindow]{run:./DOC_01.pdf}{DOC_01.pdf}

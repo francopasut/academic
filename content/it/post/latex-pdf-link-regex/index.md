@@ -13,7 +13,7 @@ tags:
 image:
   placement: 3
   preview_only: false 
-  caption: 'Link Documents'
+  caption: 'Documenti collegati (Immagini create da Copilot)'
 ---
 
 Abstract: Vim è un editor dalle infinite risorse. Può anche anche generare, grazie alle Espressioni Regolari incorporate, collegamenti ipertestuali in linguaggio LaTeX verso altri documenti presenti in locale. Per gli Avvocati ciò significa collegare un atto principale con le relative produzioni documentali. Questa è l'analisi del procedimento.

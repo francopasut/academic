@@ -12,7 +12,7 @@ tags:
 image:
   placement: 3
   preview_only: false 
-  caption: 'Link Documents'
+  caption: 'Linked documents (Images created by Copilot)'
 ---
 
 Vim is an editor with endless capabilities. It can also generate hyperlinks in LaTeX language to other locally stored documents, thanks to its built-in Regular Expressions. For lawyers, this means linking a legal document with its related evidentiary materials. This is the analysis of the procedure.

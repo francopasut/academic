@@ -25,7 +25,7 @@ and more.
 
 *LilyPond* is the same for musical scores.
 
-*LaTeX and Lylipond* together are a true excellence to mix music
+*LaTeX and LilyPond* together are a true excellence to mix music
 notation and text within same documents.
 
 But it is not so easy to generate documents by using that combination of markup languages.

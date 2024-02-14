@@ -139,7 +139,7 @@ Il comando composito sopra indicato modifica **tutte** le immagini in formato *j
 
 Per evitare di perdere gli originali occorre  creare una sottocartella rispetto a quella in cui si trovano le immagini ed utilizzare l'opzione `-path` con l'aggiunta del nome della *sottocartella*
 
-Ad esempio: in questa formula ipotizzao che il nome della sottocartella sia *pippo*:
+Ad esempio: in questa formula ipotizzo che il nome della sottocartella sia *pippo*:
 
 ```bash
 magick mogrify  -path pippo   -mattecolor peru  -frame 20x20+5+5  *.jpg

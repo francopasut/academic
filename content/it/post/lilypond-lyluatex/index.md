@@ -24,9 +24,9 @@ image:
 
 *LilyPond* è l'equivalente per la notazione musicale.
 
-*LaTeX e  Lylipond* insieme sono un eccellente sistema per combinare notazione musicale e testi all'interno dei documenti.
+*LaTeX e  LilyPond* insieme sono un eccellente sistema per combinare notazione musicale e testi all'interno dei documenti.
 
-Tuttavia non è semplicissimo generare testi in cui vengono utilizzanti entrambi i linguatti di marcatura.
+Tuttavia non è semplicissimo generare testi in cui vengano utilizzanti entrambi i linguatti di marcatura.
 
 Questo breve articolo è una semplice introduzione introduction all'utilizzo di  *LaTeX e LilyPond* insieme.
 

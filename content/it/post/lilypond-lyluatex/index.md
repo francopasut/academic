@@ -36,7 +36,7 @@ Per comprendere il contenuto di questo articolo è, ovviamente, necessario conos
 
 Esistono molti tutorial in  Internet per imparare ad utilizzare LaTeX.
 
-For *LilyPond*, il migliore corso introduttivo è quello disponibile alla pagina ufficiale  \ <https://lilypond.org/website/manuals.html>
+Per *LilyPond*, il migliore corso introduttivo è quello disponibile alla pagina ufficiale  \ <https://lilypond.org/website/manuals.html>
 
 Ovviamente occorre anche conoscere la notazione musicale.
 

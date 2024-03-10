@@ -1,5 +1,5 @@
 ---
-title: "Reduce single or multiple PDF size in GNU/Linux Bash and Python"
+title: "Reducing the size of single or multiple PDF documents in GNU/Linux Bash and Python"
 date: 2024-03-09
 slug:  shrink_pdf_bash_python
 categories:

@@ -29,7 +29,7 @@ image:
 - [3. Derived script to operate on multiple PDFs.](#3-derived-script-to-operate-on-multiple-pdfs)
   - [3.1. Using the new script.](#31-using-the-new-script)
   - [3.2. What resolution?](#32-what-resolution)
-- [4. Applicazione in Python.](#4-applicazione-in-python)
+- [4. Application in Python.](#4-application-in-python)
 
 
 
@@ -285,7 +285,7 @@ This will shrink PDFs using a resolution of 150 DPI instead of 90 DPI.
 
 You can specify any resolution value to find the ideal balance between reduction and weight of documents.
 
-## 4. Applicazione in Python.
+## 4. Application in Python.
 
 At this point I wondered how to create a **graphic** system that would perform the same function, allowing the choice of a folder containing the PDFs to be compressed and resolution in DPI.
 

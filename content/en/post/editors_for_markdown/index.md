@@ -25,7 +25,7 @@ How are four *generalist* editors, i.e., designed to be used with a wide range o
 
 - [1. Introduction.](#1-introduction)
 - [2. Vim and Markdown.](#2-vim-and-markdown)
-  - [2.1. Vim without *plugin*.](#21-vim-without-plugin)
+  - [2.1. Vim without *plugins*.](#21-vim-without-plugins)
   - [2.2. Vim with the *plugin* vim-markdown.](#22-vim-with-the-plugin-vim-markdown)
   - [2.3. Vim with the *plugin* UltiSnips.](#23-vim-with-the-plugin-ultisnips)
   - [2.4. Vim and Markdown preview.](#24-vim-and-markdown-preview)
@@ -34,11 +34,11 @@ How are four *generalist* editors, i.e., designed to be used with a wide range o
   - [3.2. Emacs with *markdown-mode*.](#32-emacs-with-markdown-mode)
   - [3.3. Emacs and preview in Markdown.](#33-emacs-and-preview-in-markdown)
 - [4. Sublime Text 4 and Markdown.](#4-sublime-text-4-and-markdown)
-  - [4.1. Sublime Text 4 without *plugin*.](#41-sublime-text-4-without-plugin)
+  - [4.1. Sublime Text 4 without *plugins*.](#41-sublime-text-4-without-plugins)
   - [4.2. Sublime Text 4 with the *plugin* "MarkdownEditing".](#42-sublime-text-4-with-the-plugin-markdownediting)
   - [4.3. Sublime Text 4 and preview in Markdown.](#43-sublime-text-4-and-preview-in-markdown)
 - [5. Visual Studio Code and Markdown.](#5-visual-studio-code-and-markdown)
-  - [5.1. VSCode without *plugin*](#51-vscode-without-plugin)
+  - [5.1. VSCode without *plugins*](#51-vscode-without-plugins)
   - [5.2. VSCode with the *plugin* "Markdown All in One".](#52-vscode-with-the-plugin-markdown-all-in-one)
 - [6. In summary.](#6-in-summary)
 
@@ -62,7 +62,7 @@ The article in based on my personal experience with *Vim*, *Emacs*, *Sublime Tex
 
 Vim can be a powerful writing tool for Markdown as well, as for any other language, provided the initial hurdle of the learning phase is passed.
 
-### 2.1. Vim without *plugin*.
+### 2.1. Vim without *plugins*.
 
 Without *plugin* the *.md* files are handled as  simple text documents without any dedicated function.
 
@@ -204,7 +204,7 @@ Thanks to the *Command  Palette* you only need to remember one key combination, 
 
 This makes it much easier to memorize specific combinations, which can also be typed directly to avoid the intermediate step of the Command Palette itself.
 
-### 4.1. Sublime Text 4 without *plugin*.
+### 4.1. Sublime Text 4 without *plugins*.
 
 In basic mode, Sublime Text 4 has a very interesting behavior: even natively, the editor recognizes the language from the extension of the document name and inserts the label "*Markdown*" in the lower right corner, with activation  the `Ctrl-r` key combination to jump between paragraphs.
 
@@ -212,7 +212,7 @@ In basic mode, Sublime Text 4 has a very interesting behavior: even natively, th
 
 A great plugin is [Markdown Editing](https://sublimetext-markdown.github.io/MarkdownEditing/).
 
-![markdown_editing](markdown_editing.png).
+![markdown_editing](markdown_editing.png)
 
 After the *plugin* is installed, you can activate its functions via the Palette.
 
@@ -232,11 +232,11 @@ For previewing you can install the "Markdown Preview" plugin, activate the comma
 
 Finally: *Visual Studio Code*, hereafter VSCode for short.
 
-It is the most recent*editor* of those mentioned in this article.
+It is the most recent *editor* of those mentioned in this article.
 
 VSCode also has the *Command Palette*, already described for Sublime Text, which can be activated with the `Ctrl + Shift + P` command.
 
-### 5.1. VSCode without *plugin*
+### 5.1. VSCode without *plugins*
 
 Even without any additions, VSCode allows you to view the  preview for documents written in Markdown.
 

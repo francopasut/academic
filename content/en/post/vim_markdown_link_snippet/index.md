@@ -58,7 +58,9 @@ But I found some details that I decided to develop in my own way.
 In consideration of the above observations, **I have developed my own version of the code**,  shown below:
 
 ```vim
+snippet [l
 [${1:${VISUAL}}](${2:`!v getreg("+")`})
+endsnippet
 ```
 It works great!
 

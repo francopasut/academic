@@ -26,7 +26,7 @@ Perché mi sono posto questa domanda?
 Molto semplice: Ho notato che  *"nell'altro-lato-della-luna-chiamato-Emacs"* la costruzione di un link da una *regione* (cioè un testo selezionato) è immediatamente disponibile (markdown-mode, `C-c C-l`) mentre nella lista [honza](https://github.com/honza/vim-snippets/blob/master/snippets/markdown.snippets), che è usata dal plugin Vim [UltiSnips](https://github.com/SirVer/ultisnips), la stessa funzione non è tra quelle preimpostate.
 
 
-## An interesting solution found on the net
+## Un'interessante soluzione trovata in rete.
 
 Per essere onesti, il lavoro non è tutto mio: Ho trovato un'interessante proposta di soluzione su [questa pagina](https://brendandawes.com/blog/ultisnips-auto-markdown-link), che riporto di seguito:
 
@@ -54,13 +54,15 @@ Ma ho trovato alcuni dettagli che ho deciso di sviluppare a modo mio.
 
 2. Se si confronta il codice dello snippet suggerito con gli snippet standard si noterà che la prima parte è numerata con "0" invece di "1" e la seconda parte è numerata "1" invece di "2".  Quindi ho semplicemente rinumerato le due parti inserendo i numeri 1 e 2 invece di 0 e 1 e anche il secondo punto è stato risolto.
 
-3. Il terzo punto era il più semplice: abbiamo semplicemente cambiato il nome della stringa di attivazione da `link` a `[l` (o quello che volete).
+3. Il terzo punto era il più semplice: ho semplicemente cambiato il nome della stringa di attivazione da `link` a `[l` (o quello che volete).
 
 In considerazione delle osservazioni di cui sopra, **ho sviluppato una mia versione del codice**,  che riporto di seguito:
 
 
 ```vim
+snippet [l
 [${1:${VISUAL}}](${2:`!v getreg("+")`})
+endsnippet
 ```
 Funziona alla grande!
 

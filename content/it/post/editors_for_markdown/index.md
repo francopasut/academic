@@ -106,7 +106,7 @@ Il primo articolo è dedicato alla gestione degli snippets in Vim con  *UnltiSni
 
 ### 2.4. Vim e l'anteprima di Markdown. 
 
-Per quanto concerne la gestione dell'anteprima richiamo altri due miei:
+Per quanto concerne la gestione dell'anteprima richiamo altri due miei articoli:
 
 -  ["Vim e l'anteprima in Markdown"](https://francopasut.netlify.app/it/post/vim_markdown_preview_plugin/),
 -  ["Markdown in Firefox"](https://francopasut.netlify.app/it/post/markdown_firefox/).
@@ -127,7 +127,7 @@ In questa modalità non vi è alcuna funzionalità dedicata a Markdown  ed è po
 
 Per aggiungere funzionalità specifiche ai documenti scritti in Markdown  occorre installare il  pacchetto [markdown-mode](https://jblevins.org/projects/markdown-mode/).
 
-Riporto l'immagina tratta  dall'attuale pagina iniziale del *plugin*:
+Riporto l'immagine tratta  dall'attuale pagina iniziale del *plugin*:
 
 ![markdown_mode](markdown_mode.png)
 

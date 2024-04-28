@@ -1,5 +1,5 @@
 ---
-title: "Python: applicazione per copiare testo da vari PDF e raccoglierlo in un unico documento in formato Markdown."
+title: "Programma in Python per copiare testo da vari PDF e raccoglierlo in un unico documento in formato Markdown."
 date: 2024-04-26
 slug:  python_pdf_collect_content_markdown
 categories:
@@ -15,11 +15,6 @@ image:
 ---
 
 
-<p align="center">
-  <i>Abstract:</i>
-</p>
-
-Semplice applicazione in Python per estrarre testo da vari PDF ed inserirlo in un unico documento Markdown.
 
 - [1. Oggetto dell'articolo.](#1-oggetto-dellarticolo)
 - [2. Analisi del sorgente in Python.](#2-analisi-del-sorgente-in-python)
@@ -27,7 +22,7 @@ Semplice applicazione in Python per estrarre testo da vari PDF ed inserirlo in u
 
 ## 1\. Oggetto dell'articolo.
 
-L'obiettivo è quello di ottenere uno *script* che permetta di raccogliere il testo contenuto in vari PDF generati direttamente da programmi di videoscrittura e di inserire i vari frammenti in un unico documento in formato Markdown separando i  frammenti con titoli di secondo livello corrispondenti al nome dei documenti di provenienza.
+L'obiettivo è quello di generare un semplice programma che permetta di raccogliere il testo contenuto in vari PDF generati direttamente da programmi di videoscrittura e di inserire i vari frammenti in un unico documento in formato Markdown separando i  frammenti con titoli di secondo livello corrispondenti al nome dei documenti di provenienza.
 
 La soluzione "manuale" è quella di copiare il testo dai singoli documenti, uno per uno, e di incollarlo in un secondo documento.
 

@@ -1,5 +1,5 @@
 ---
-title: "Python: application to copy text from various PDFs and collect it into a single document in Markdown format."
+title: "A Python program to copy text from various PDFs and collect it into a single document in Markdown format."
 date: 2024-04-26
 slug:  python_pdf_collect_content_markdown
 categories:
@@ -15,11 +15,6 @@ image:
 ---
 
 
-<p align="center">
-  <i>Abstract:</i>
-</p>
-
-Simple application in Python to extract text from various PDFs and insert it into a single Markdown document.
 
 
 - [1. Subject of this article.](#1-subject-of-this-article)
@@ -28,7 +23,7 @@ Simple application in Python to extract text from various PDFs and insert it int
 
 ## 1\. Subject of this article.
 
-The goal is to obtain a *script* that allows one to collect the text contained in various PDFs generated directly from word processing programs and to insert the various fragments into a single document in Markdown format by separating the  fragments with second-level headings corresponding to the name of the source documents.
+The goal is to generate a simple program to collect the text contained in various PDFs generated directly from word processing programs and insert the various fragments into a single document in Markdown format by separating the fragments with second-level headings corresponding to the name of the source documents.
 
 The "manual" solution is to copy the text from the individual documents, one by one, and paste it into a second document.
 

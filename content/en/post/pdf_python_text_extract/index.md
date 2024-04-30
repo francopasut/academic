@@ -1,5 +1,5 @@
 ---
-title: "A Python program to copy text from various PDFs and collect it into a single document in Markdown format."
+title: "A Python program to copy text from various PDFs and collect it into a single document in Markdown language."
 date: 2024-04-26
 slug:  python_pdf_collect_content_markdown
 categories:
@@ -23,21 +23,21 @@ image:
 
 ## 1\. Subject of this article.
 
-The goal is to generate a simple program to collect the text contained in various PDFs generated directly from word processing programs and insert the various fragments into a single document in Markdown format by separating the fragments with second-level headings corresponding to the name of the source documents.
+The goal is to generate a simple program to collect the text contained in various PDFs generated directly from word processing programs and insert the various fragments into a single document in Markdown language by separating the fragments with second-level headings corresponding to the name of the source documents.
 
-The "manual" solution is to copy the text from the individual documents, one by one, and paste it into a second document.
+The "hands-on" solution is to copy the text from the individual documents, one by one, and paste it into a second document.
 
 Or you could build a simple application in Python that does all the work automatically, saving an amount of time directly proportional to the number of documents to be processed.
 
 The *script*, generated with the help of Copilot ( because I am not a programmer), requires the installation of the `PyPDF2` library.
 
-Warning: **this article does NOT discuss optical character recognition (OCR).** For that topic you may refer to [my other article](https://francopasut.netlify.app/post/ocr_linux_tesseract/).
+Warning: **this article does NOT discuss optical character recognition (OCR).** For that topic, you may refer to [my other article](https://francopasut.netlify.app/post/ocr_linux_tesseract/).
 
 ## 2\. Python source analysis.
 
 Since this is to be done at the operating system level, it is necessary, first of all, to import the *os* module.
 
-As, then, anticipated above it is necessary to import the *PdfReader* module from the *PyPDF2* library, which must, therefore, be installed before launching the *script*.
+As, then, anticipated above, it is necessary to import the *PdfReader* module from the *PyPDF2* library, which must, therefore, be installed before launching the *script*.
 
 So we start with:
 
@@ -53,13 +53,13 @@ We must, then, define a variable, here named *pdf_directory*, containing the pat
 pdf_directory = 'path/to/pdf/folder'
 ```
 
-as well as initialize another variable, empty, intended to collect the various fragments within the document in Markdown format:
+as well as initialize another variable, empty, intended to collect the various fragments within the document in Markdown language:
 
 ```python
 markdown_content = ""
 ```
 
-Now begin (using the functions of the *os* module) the sequence of iterations in the files in the folder indicated in the first variable:
+Now begins (using the functions of the *os* module) the sequence of iterations for the documents in the folder indicated in the first variable, checking that the name has the extension “.pdf.”:
 
 ```python
 for filename in os.listdir(pdf_directory):
@@ -81,7 +81,7 @@ Now the program reads the text of the PDF:
         text = ""
 ```
 
-The following fragment, then, iterates through the pages and adds the text extracted from each page to the *text* variable, separating it by a newline character (`\n`)
+The following fragment, then, iterates through the pages and adds the text extracted from each page to the *text* variable, separating it by a newline character (`\n`):
 
 ```python
         for page in reader.pages:
@@ -101,7 +101,7 @@ The string includes:
 - `{text}` includes the text content extracted from the various pages.
 - `\n` adds a new line at the end of the content.
 
-At the end, the result of the operation is saved in a document in Markdown format:
+At the end, the result of the operation is saved in a document in Markdown language:
 
 ```path
 with open('extracted_content.md', 'w', encoding='utf-8') as md_file:

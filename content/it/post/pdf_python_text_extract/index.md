@@ -1,5 +1,5 @@
 ---
-title: "Programma in Python per copiare testo da vari PDF e raccoglierlo in un unico documento in formato Markdown."
+title: "Programma in Python per copiare testo da vari PDF e raccoglierlo in un unico documento in linguaggio Markdown."
 date: 2024-04-26
 slug:  python_pdf_collect_content_markdown
 categories:
@@ -22,7 +22,7 @@ image:
 
 ## 1\. Oggetto dell'articolo.
 
-L'obiettivo è quello di generare un semplice programma che permetta di raccogliere il testo contenuto in vari PDF generati direttamente da programmi di videoscrittura e di inserire i vari frammenti in un unico documento in formato Markdown separando i  frammenti con titoli di secondo livello corrispondenti al nome dei documenti di provenienza.
+L'obiettivo è quello di generare un semplice programma che permetta di raccogliere il testo contenuto in vari PDF generati direttamente da programmi di videoscrittura e di inserire i vari frammenti in un unico documento in linguaggio Markdown separando i  frammenti con titoli di secondo livello corrispondenti al nome dei documenti di provenienza.
 
 La soluzione "manuale" è quella di copiare il testo dai singoli documenti, uno per uno, e di incollarlo in un secondo documento.
 
@@ -36,7 +36,7 @@ Attenzione: **in questo articolo NON si parla  di riconoscimento ottico dei cara
 
 Trattandosi di effettuare interventi a livello di sistema operativo, occorre, innanzitutto,  importare il modulo *os*.
 
-Come, poi, sopra anticipato occorre importare il modulo *PdfReader* dalla libreria *PyPDF2*, che deve, quindi, essere installata prima di lanciare lo *script*.
+Come, poi, sopra anticipato, occorre importare il modulo *PdfReader* dalla libreria *PyPDF2*, che deve, quindi, essere installata prima di lanciare lo *script*.
 
 Quindi si inizia con:
 
@@ -52,13 +52,13 @@ Occorre, poi, definire una variabile, qui denominata *pdf_directory*,   contenen
 pdf_directory = 'path/to/pdf/folder'
 ```
 
-nonché inizializzare un'altra variabile, vuota, destinata a raccogliere i vari frammenti all'interno del documento in formato Markdown:
+nonché inizializzare un'altra variabile, vuota, destinata a raccogliere i vari frammenti all'interno del documento in linguaggio Markdown:
 
 ```python
 markdown_content = ""
 ```
 
-A questo punto inizia (utilizzando le funzioni del modulo *os*)  la sequenza delle iterazioni nei file presenti nella cartella indicata nella prima variabile:
+A questo punto inizia (utilizzando le funzioni del modulo *os*)  la sequenza delle iterazioni per i documenti presenti nella cartella indicata nella prima variabile, controllando che il nome abbia l'estensione ".pdf":
 
 ```python
 for filename in os.listdir(pdf_directory):
@@ -80,7 +80,7 @@ A questo punto il programma legge il testo del PDF:
         text = ""
 ```
 
-Il frammento seguente, poi, itera attraverso le pagine e aggiunge il testo estratto da ciascuna pagina alla variabile *text*, separandolo da un carattere di nuova riga (`\n`)
+Il frammento seguente, poi, itera attraverso le pagine e aggiunge il testo estratto da ciascuna pagina alla variabile *text*, separandolo da un carattere di nuova riga (`\n`):
 
 ```python
         for page in reader.pages:
@@ -100,7 +100,7 @@ La stringa include:
 - `{text}` include il contenuto del testo estratto dalle varie pagine.
 - `\n` aggiunge una nuova riga alla fine del contenuto.
 
-Alla fine, il risultato dell'operazione viene salvato in un documento in formato Markdown:
+Alla fine, il risultato dell'operazione viene salvato in un documento in linguaggio Markdown:
 
 ```path
 with open('extracted_content.md', 'w', encoding='utf-8') as md_file:

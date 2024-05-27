@@ -109,9 +109,9 @@ In particular, macOS uses **Bash** as the default *shell*, which is the same *sh
 The *shell* is the software layer that interprets user commands and turns them into actions by the operating system.
 
 In  UNIX world there are also other *shells* for managing the terminal:
-*Fish*,  
-*Zsh*, 
-*Dash*, 
+*Fish*,
+*Zsh*,
+*Dash*,
 *Ksh*.
 
 However, also for Linux, we will refer to the simplest “shell” solution, i.e. **Bash**, “*Bourne Again SHell*”, which is also the most common.

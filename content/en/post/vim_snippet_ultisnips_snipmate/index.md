@@ -51,7 +51,7 @@ I briefly summarize the steps:
      In the case of other *plugin managers* the specific procedure provided should be used.
 
 2. **Configuration of Vim**:
-   - Installation is not sufficient. The following lines must also be added to the Vim configuration to load the `UltiSnips` snippets:
+   - Installation is not enough. The following lines must also be added to the Vim configuration to load the `UltiSnips` snippets:
 
 
      ```vim

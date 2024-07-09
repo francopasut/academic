@@ -1,5 +1,5 @@
 ---
-title: "Vim, Sublime Text, Visual Studio Code e i cursori multipli."
+title: "Vim, Sublime Text, Visual Studio Code ed i cursori multipli."
 date: 2024-07-08
 slug:  vim_sublime_vsc_multicursors
 categories:

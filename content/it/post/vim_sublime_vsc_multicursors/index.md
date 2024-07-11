@@ -116,9 +116,9 @@ In altri termini, Visual Studio Code consente di liberare la memoria (umana) des
 Data la similitudine tra i due *editor*, almeno per quanto concerne i cursori multipli, riporto una semplice tabella di comparazione per tre modalità di aggiunta:
 
 
-| Editor             | Con mouse     | In sequenza               | Fine aree selezionate |
+| Editor             | Con mouse     | In sequenza               | Fine dei paragrafi |
 | :----------------- | :------------ | :------------------------ | :-------------------- |
-| Sublime Text       | `Ctrl + clic` | `Shift + Alt + Down↓/Up↑` | `Ctrl+Shift+l`        |
+| Sublime Text       | `Ctrl + clic` | `Shift + Alt + Down↓/Up↑` | `Ctrl + Shift + L`        |
 | Visual Studio Code | `Alt + clic`  | `Shift + Alt + Down↓/Up↑` | `Shift + Alt + I`     |
 
 In entrambi gli *editor*, per uscire occorre premere `Esc` o *cliccare* senza premere il tasto `Ctrl` in un punto qualsiasi del documento.

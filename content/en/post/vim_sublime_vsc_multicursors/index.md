@@ -116,9 +116,9 @@ In other words, Visual Studio Code allows you to free up the (human) memory  and
 Given the similarity between the two *editors*, at least as far as multiple cursors are concerned, I report a simple comparison table for three addition modes:
 
 
-| Editor             | With mouse     | In sequence               | End selected areas |
+| Editor             | With mouse     | In sequence               | End of paragraphs |
 | :----------------- | :------------- | :------------------------ | :----------------- |
-| Sublime Text       | `Ctrl + click` | `Shift + Alt + Down↓/Up↑` | `Ctrl+Shift+l`     |
+| Sublime Text       | `Ctrl + click` | `Shift + Alt + Down↓/Up↑` | `Ctrl + Shift + L`     |
 | Visual Studio Code | `Alt + click`  | `Shift + Alt + Down↓/Up↑` | `Shift + Alt + I`  |
 
 In both *editors*, to exit one must press `Esc` or *click* without pressing the `Ctrl` key anywhere in the document.

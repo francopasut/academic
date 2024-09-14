@@ -24,7 +24,7 @@ INDICE
 </p>
 
 - [1. Questo articolo tratta di LaTeX e Sublime Text.](#1-questo-articolo-tratta-di-latex-e-sublime-text)
-- [2. La brutta notizia: LaTeXTools non è aggiornato.](#2-la-brutta-notizia-latextools-non-%C3%A8-aggiornato)
+- [2. La brutta notizia: LaTeXTools non è aggiornato.](#2-la-brutta-notizia-latextools-non-è-aggiornato)
 - [3. Segnaposti e Variabili.](#3-segnaposti-e-variabili)
 - [4. I cursori multipli.](#4-i-cursori-multipli)
 - [5. Incollare liste di documenti copiate dalle cartelle.](#5-incollare-liste-di-documenti-copiate-dalle-cartelle)
@@ -53,7 +53,6 @@ La straordinaria qualità tipografica di LaTeX è fuori discussione.
 Per gestire documenti complessi in LaTeX occorre, tuttavia, utilizzare *editor*  che consentano di effettuare velocemente una serie di operazioni tra cui:
 
 - Saltare velocemente tra i titoli dei vari livelli di sezioni. 
-  - Ctrl+j contro /lt dei rispettivi plug-in.
 - Compilare velocemente le variabili ed altri dati relati  saltando tra segnalibri preimpostati,
 - Compilare velocemente il  codice sorgente ottenendo il PDF.
 - Saltare  direttamente dal codice sorgente al PDF compilato e viceversa.

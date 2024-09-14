@@ -42,7 +42,6 @@ The outstanding typographic quality of LaTeX cannot be doubted.
 To manage complex documents in LaTeX, however, one needs to use *editors* that allow one to quickly perform a number of operations including:
 
 - Quickly jumping between the titles of the various levels of sections. 
-  - Ctrl+j versus /lt of the respective plug-ins.
 - Quickly compile variables and other related data by jumping between preset bookmarks,
 - Quickly compile source code by getting the PDF.
 - Jump directly from source code to the compiled PDF and vice versa.

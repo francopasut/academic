@@ -11,6 +11,7 @@ image:
   placement: 3
   preview_only: false 
   caption: 'Python and LaTeX friendship'
+canonicalUrl: https://francopasut.blogspot.com/2024/12/studio-su-un-esempio-di-integrazione.html
 ---
 
 # Indice
@@ -170,5 +171,3 @@ Merita un approfondimento.
 Grazie per l'attenzione.
 
 Questo articolo è stato scritto in Org Mode.
-
-<link rel="canonical" href="https://francopasut.blogspot.com/2024/12/studio-su-un-esempio-di-integrazione.html" />

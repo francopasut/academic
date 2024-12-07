@@ -11,6 +11,7 @@ image:
   placement: 3
   preview_only: false 
   caption: 'Python and LaTeX friendship'
+canonicalUrl: https://medium.com/@francopasut/study-on-an-example-of-integration-between-python-and-latex-168e7a150be6
 ---
 
 # Table of Contents
@@ -162,5 +163,3 @@ A single command against the various steps described in par.
 Thank you for your attention.
 
 This article was written in Org Mode.
-
-<link rel="canonical" href="https://medium.com/@francopasut/study-on-an-example-of-integration-between-python-and-latex-168e7a150be6" />

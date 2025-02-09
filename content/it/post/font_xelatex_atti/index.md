@@ -24,7 +24,7 @@ canonicalUrl: https://francopasut.blogspot.com/2025/02/atti-giudiziari-font-xela
 - [6. CALIBRI ed HELVETICA: anche questi un po' squadrati.](#6-calibri-ed-helvetica-anche-questi-un-po-squadrati)
 - [7. COURIER NEW, ottimo per le bozze.](#7-courier-new-ottimo-per-le-bozze)
 - [8. VERDANA: perfetto!](#8-verdana-perfetto)
-- [9. XeLaTeX: di cosa si tratta? ](#9-xelatex-di-cosa-si-tratta-)
+- [9. A proposito di XeLaTeX.](#9-a-proposito-di-xelatex)
 - [10. Conclusione](#10-conclusione)
 
 
@@ -181,7 +181,7 @@ Al momento è il mio preferito.
 
 <a id="orga5e25ae"></a>
 
-# 9. XeLaTeX: di cosa si tratta? <a id="orgee6e28f"></a>
+# 9. A proposito di XeLaTeX.
 
 Tutte le prove sono state realizzate con  XeLaTeX.
 

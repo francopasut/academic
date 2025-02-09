@@ -1,6 +1,6 @@
 ---
 title: "Atti giudiziari, Font, XeLaTeX."
-date: 2025-2-09
+date: 2025-02-09
 slug:  atti_giudiziari_font_xelatex.
 categories:
   - Blog

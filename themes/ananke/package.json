@@ -2,6 +2,10 @@
   "name": "@thenewdynamic/gohugo-theme-ananke",
   "description": "Ananke: A theme for Hugo Sites",
   "version": "2.11.2",
+  "scripts": {
+    "build": "hugo --minify",
+    "postbuild": "npx pagefind"
+  },
   "license": "MIT",
   "repository": "thenewdynamic/gohugo-theme-ananke",
   "author": "Bud Parr (https://github.com/budparr)",
@@ -38,6 +42,7 @@
     "tachyons": "4.12.0"
   },
   "devDependencies": {
+    "pagefind": "^1.0.0",
     "@davidsneighbour/markdownlint-config": "2024.4.12",
     "@davidsneighbour/release-config": "2024.4.12",
     "@davidsneighbour/tools": "2024.4.12",

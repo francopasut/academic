@@ -1,6 +1,7 @@
 [build]
+  command = "hugo --gc --minify -b $URL"
   publish = "public"
-  command = "hugo --gc --minify && npx pagefind --site public"
+
 [build.environment]
   HUGO_VERSION = "0.142"
   HUGO_ENABLEGITINFO = "true"
@@ -18,3 +19,5 @@
   package = "netlify-plugin-hugo-cache-resources"
   [plugins.inputs]
     debug = true
+[[postprocessing]]
+  command = "npx -y pagefind --site public"

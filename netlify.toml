@@ -1,9 +1,6 @@
 [build]
   publish = "public"
-  command = """
-  hugo --gc --minify -b $URL
-  npx -y pagefind --site public
-  """
+  command = "hugo --gc --minify -b $URL && npx -y pagefind --site 'public'"
 [build.environment]
   HUGO_VERSION = "0.142"
   HUGO_ENABLEGITINFO = "true"

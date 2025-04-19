@@ -13,8 +13,8 @@ echo "Eseguo post-processing con comando Python"
 publish = "public"
 pip install pagefind 
 
-python3 -c 'import pagefind; import os; print(os.path.join(os.path.dirname(pagefind.__file__), \"pagefind\"))' 
-python3 \"$(python3 -c 'import pagefind; import os; print(os.path.join(os.path.dirname(pagefind.__file__), \"pagefind\"))')/pagefind\" --site public
+PYTHON_DIR=\"$(python3 -c 'import pagefind; import os; print(os.path.dirname(pagefind.__file__))')\" 
+python3 \"$PYTHON_DIR/pagefind\" --site public
 
 
 echo "Post-processing completato."

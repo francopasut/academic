@@ -9,6 +9,7 @@ echo "Build di Hugo completata."
 # Esempio di post-processing: copia di file aggiuntivi
 echo "Eseguo post-processing con comando Python"
 pip install pagefind
-python3 -m pagefind --site public
+
+python3 -m pagefind.cli --site public
 
 echo "Post-processing completato."

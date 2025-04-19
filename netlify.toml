@@ -1,6 +1,6 @@
 [build]
-  command = "hugo --gc --minify -b $URL"
   publish = "public"
+  command = "./build_script.sh"
 
 [build.environment]
   HUGO_VERSION = "0.142"

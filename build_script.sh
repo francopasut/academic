@@ -8,8 +8,12 @@ echo "Build di Hugo completata."
 
 # Esempio di post-processing: copia di file aggiuntivi
 echo "Eseguo post-processing con comando Python"
-pip install pagefind
 
-python3 -m pagefind.cli --site public
+[build]
+publish = "public"
+pip install pagefind 
+python3 -c 'import pagefind; import os; print(os.path.dirname(pagefind.__file__))'
+python3 $(python3 -c 'import pagefind; import os; print(os.path.dirname(pagefind.__file__))')/pagefind --site public
+
 
 echo "Post-processing completato."

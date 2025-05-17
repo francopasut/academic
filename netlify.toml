@@ -1,10 +1,16 @@
 [build]
-  command = "hugo --gc --minify -b $URL"
   publish = "public"
+  command = "hugo && npx pagefind --site public --output-subdir pagefind"
 
 [build.environment]
-  HUGO_VERSION = "0.142"
-  HUGO_ENABLEGITINFO = "true"
+  HUGO_VERSION = "0.145.0"  # Replace with your current Hugo version
+  NODE_VERSION = "18"       # Ensure we have a recent Node version for Pagefind
+
+# Cache control for Pagefind files
+[[headers]]
+  for = "/pagefind/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
 
 [context.production.environment]
   HUGO_ENV = "production"

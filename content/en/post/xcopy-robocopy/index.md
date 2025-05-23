@@ -14,17 +14,17 @@ image:
   caption: Windows and Robocopy
 ---
 
+<p align="center">
+INDEX
+</p>
 
-# Table of Contents
-
-1.  [Copy and Paste: the universal method.](#org9b34774)
-2.  [A short introduction to the Command Line in MS Windows.](#orga8dc144)
-3.  [Two integrated command-line solutions: xcopy and robocopy.](#org0ed2cd1)
-4.  [Basic scheme and some options, among many, of the robocopy command.](#orgcb5832c)
-5.  [Robocopy and batch procedures.](#org8ec40d4)
-6.  [Robocopy and Rsync.](#orgcb04562)
-7.  [FreeFileSync](#org3337a53)
-
+- [Copy and Paste: the universal method.](#copy-and-paste-the-universal-method)
+- [A short introduction to the Command Line in MS Windows.](#a-short-introduction-to-the-command-line-in-ms-windows)
+- [Two integrated command-line solutions: xcopy and robocopy.](#two-integrated-command-line-solutions-xcopy-and-robocopy)
+- [Basic scheme and some options, among many, of the robocopy command.](#basic-scheme-and-some-options-among-many-of-the-robocopy-command)
+- [Robocopy and batch procedures.](#robocopy-and-batch-procedures)
+- [Robocopy and Rsync.](#robocopy-and-rsync)
+- [FreeFileSync](#freefilesync)
 
 
 <a id="org9b34774"></a>

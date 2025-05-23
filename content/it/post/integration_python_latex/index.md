@@ -14,9 +14,11 @@ image:
 canonicalUrl: https://francopasut.blogspot.com/2024/12/studio-su-un-esempio-di-integrazione.html
 ---
 
-# Indice
+<p align="center">
+INDICE
+</p>
 
-- [Indice](#indice)
+
 - [Argomento  di questo articolo.](#argomento--di-questo-articolo)
 - [ Descrizione dell'operazione senza utilizzo di  Python.](#-descrizione-delloperazione-senza-utilizzo-di--python)
 - [Contenuto del file Python.](#contenuto-del-file-python)

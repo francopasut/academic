@@ -15,16 +15,17 @@ image:
 ---
 
 
-# Indice
+<p align="center">
+INDICE
+</p>
 
-1.  [Copia e Incolla: il metodo universale.](#org2e03875)
-2.  [Breve premessa sulla Linea di Comando in  MS Windows.](#orgcde6e34)
-3.  [Due soluzioni integrate a linea di comando: xcopy e robocopy.](#orgc507ab1)
-4.  [Schema base ed alcune  opzioni, tra le tante, del  comando robocopy.](#orgaabc52e)
-5.  [Robocopy e procedure batch.](#org8c757fd)
-6.  [Robocopy e Rsync.](#org5b6085c)
-7.  [FreeFileSync](#org86ba6fd)
-
+- [Copia e Incolla: il metodo universale.](#copia-e-incolla-il-metodo-universale)
+- [Breve premessa sulla Linea di Comando in  MS Windows.](#breve-premessa-sulla-linea-di-comando-in--ms-windows)
+- [Due soluzioni integrate a linea di comando: xcopy e robocopy.](#due-soluzioni-integrate-a-linea-di-comando-xcopy-e-robocopy)
+- [Schema base ed alcune  opzioni, tra le tante, del  comando robocopy.](#schema-base-ed-alcune--opzioni-tra-le-tante-del--comando-robocopy)
+- [Robocopy e procedure batch.](#robocopy-e-procedure-batch)
+- [Robocopy e Rsync.](#robocopy-e-rsync)
+- [FreeFileSync](#freefilesync)
 
 
 <a id="org2e03875"></a>

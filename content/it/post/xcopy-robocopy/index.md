@@ -51,7 +51,7 @@ Queste soluzioni esistono ma sono un po' nascoste in quanto funzionano nella "Li
 
 Cos'è la "linea di comando" di MS Windows?
 
-I primi computer personali  utilizzavani un sistema operativo esclusivamente a linea di comando:  era denominato "MS-DOS".
+I primi computer personali  utilizzavano un sistema operativo esclusivamente a linea di comando:  era denominato "MS-DOS".
 
 Tutti i comandi dovevano essere digitati per esteso  sulla tastiera.
 
@@ -85,7 +85,7 @@ Più avanti in questo articolo vi spiegherò come gestire questo problema.
 
 # Due soluzioni integrate a linea di comando: xcopy e robocopy.
 
-Dopo la breve premessa sulla "linea di comando" torniamo alla questione della copia dei documenti: MS Windows offre due soluzioni native a linea di comando:.
+Dopo la breve premessa sulla "linea di comando" torniamo alla questione della copia dei documenti: MS Windows offre due soluzioni native a linea di comando:
 
 -   `xcopy`
 -   `robocopy`
@@ -94,7 +94,7 @@ La prima soluzione, `xcopy`,  è stata introdotta dai tempi remoti di  MS-DOS ed
 
 La descrizione analitica in italiano del comando `xcopy` si trova in [questa pagina](https://learn.microsoft.com/it-it/windows-server/administration/windows-commands/xcopy) del produttore.
 
-La seconda applicazione,  `robocopy` è  più recente in quanto è stata introdotta nei sistemi operativi basati su  Windows NT 5.0, ovvero Windows 2000 e Windows XP.
+La seconda applicazione,  `robocopy`, è  più recente in quanto è stata introdotta nei sistemi operativi basati su  Windows NT 5.0, ovvero Windows 2000 e Windows XP.
 
 Con `robocopy` è possibile effettuare operazioni molto più complesse ed articolate, tra cui il trasferimento dei dati filtrando soltanto quelli modificati rispetto ad analoghe precedenti operazioni di cui si è fatto cenno sopra.
 

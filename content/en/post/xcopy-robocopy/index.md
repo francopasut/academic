@@ -14,6 +14,7 @@ image:
   caption: Windows and Robocopy
 ---
 
+
 <p align="center">
 INDEX
 </p>
@@ -27,7 +28,9 @@ INDEX
 - [FreeFileSync](#freefilesync)
 
 
-<a id="org9b34774"></a>
+
+
+<a id="orgd62dcd1"></a>
 
 # Copy and Paste: the universal method.
 
@@ -44,7 +47,7 @@ In cases like these, more efficient solutions should be sought.
 These solutions exist but are somewhat hidden as they work in the “Command Line” of the operating system.
 
 
-<a id="orga8dc144"></a>
+<a id="org02fdb5c"></a>
 
 # A short introduction to the Command Line in MS Windows.
 
@@ -80,7 +83,7 @@ In other words: operations performed with the command-line interface are irrever
 Later in this article I will explain how to handle this problem.
 
 
-<a id="org0ed2cd1"></a>
+<a id="orgc0e9341"></a>
 
 # Two integrated command-line solutions: xcopy and robocopy.
 
@@ -91,7 +94,7 @@ After the brief introduction on the “command line,” let us return to the iss
 
 The first solution, `xcopy`, was introduced from the remote days of MS-DOS and is, therefore, present since the origin of the MS Windows operating system.
 
-The extensive description  of the `xcopy` command can be found at [this page](https://learn.microsoft.com/it-it/windows-server/administration/windows-commands/xcopy) from the manufacturer.
+The extensive description  of the `xcopy` command can be found at [this page](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/xcopy) from the manufacturer.
 
 The second application, `robocopy` is more recent in that it was introduced in Windows NT 5.0-based operating systems, namely Windows 2000 and Windows XP.
 
@@ -99,14 +102,14 @@ With `robocopy` it is possible to carry out much more complex and intricate oper
 
 It also allows you to make “mirror” copies, that is, copies that automatically delete from the destination folder the data no longer present in the source folder, creating, in effect, *mirror copies*.
 
-The extensive description of `robocopy` can be found in [this page](https://learn.microsoft.com/en-en/windows-server/administration/windows-commands/robocopy) from the manufacturer .
+The extensive description of `robocopy` can be found in [this page](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/robocopy) from the manufacturer .
 
 
-<a id="orgcb5832c"></a>
+<a id="org944f547"></a>
 
 # Basic scheme and some options, among many, of the robocopy command.
 
-The `robocopy` command has many options, as analytically described on the [manufacturer's page.](https://learn.microsoft.com/it-it/windows-server/administration/windows-commands/robocopy)
+The `robocopy` command has many options, as analytically described on the [manufacturer's page.](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/robocopy)
 
 I will, therefore, just mention a few to get you started with using the command.
 
@@ -179,7 +182,7 @@ For really: `robocopy C:\source D:\destination /L` shows the effect of the comma
 To actually proceed just send the same command again but without the `/L` option.b
 
 
-<a id="org8ec40d4"></a>
+<a id="org0292d0e"></a>
 
 # Robocopy and batch procedures.
 
@@ -214,7 +217,7 @@ In addition, the command can also be launched from File Explorer, i.e., from the
 To edit the contents of the .bat command, however, just press *Edit* in the context menu of File Explorer.
 
 
-<a id="orgcb04562"></a>
+<a id="orgc2b14be"></a>
 
 # Robocopy and Rsync.
 
@@ -231,7 +234,7 @@ Here are some similarities:
 -   Mirror copy: Robocopy's `/MIR` option, described in this article, is perfectly *specular* to Rsync's `--delete` option.
 
 
-<a id="org3337a53"></a>
+<a id="orgc8de4ff"></a>
 
 # FreeFileSync
 

@@ -102,7 +102,7 @@ With `robocopy` it is possible to carry out much more complex and intricate oper
 
 It also allows you to make “mirror” copies, that is, copies that automatically delete from the destination folder the data no longer present in the source folder, creating, in effect, *mirror copies*.
 
-The extensive description of `robocopy` can be found in [this page](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/robocopy) from the manufacturer .
+The extensive description of `robocopy` can be found in [this page](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/robocopy) from the manufacturer.
 
 
 <a id="org944f547"></a>
@@ -179,7 +179,7 @@ To perform a simulation in Robocopy, simply use the `/L` option.
 
 For really: `robocopy C:\source D:\destination /L` shows the effect of the command without making any actual movement.
 
-To actually proceed just send the same command again but without the `/L` option.b
+To actually proceed just send the same command again but without the `/L` option.
 
 
 <a id="org0292d0e"></a>

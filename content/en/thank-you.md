@@ -1,10 +1,9 @@
 ---
-title: "Thank You for your message!"
+title: "Thank You/Grazie"
 draft: false
 authorbox: false
 pager: false
 ---
 
-# Thank You!
+# Thank You! Grazie!
 
-Your message has been successfully sent.

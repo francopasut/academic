@@ -1,5 +1,5 @@
 ---
-title: "Grazie per il tuo messaggio!"
+title:
 draft: false
 authorbox: false
 pager: false

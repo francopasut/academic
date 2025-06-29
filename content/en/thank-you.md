@@ -1,6 +1,5 @@
 ---
-title: "Thank You/Grazie"
-hydeTitle: true
+title:
 draft: false
 authorbox: false
 pager: false

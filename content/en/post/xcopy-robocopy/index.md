@@ -11,7 +11,8 @@ tags:
 image:
   placement: 3
   preview_only: false 
-  caption: Windows and Robocopy
+  caption: 'Windows and Robocopy'
+canonicalUrl: https://francopasut-en.blogspot.com/2025/05/ms-windows-xcopy-and-robocopy-with.html
 ---
 
 

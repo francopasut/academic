@@ -11,7 +11,8 @@ tags:
 image:
   placement: 3
   preview_only: false 
-  caption: Windows and Robocopy
+  caption: 'Windows e Robocopy'
+canonicalUrl: https://francopasut.blogspot.com/2025/05/ms-windows-xcopy-e-robocopy-con-cenni.html
 ---
 
 

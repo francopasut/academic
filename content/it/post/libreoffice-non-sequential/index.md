@@ -11,6 +11,7 @@ image:
   placement: 3
   preview_only: false 
   caption: 'Pagine non sequenziali'
+canonicalUrl: https://francopasut.blogspot.com/2025/08/libreoffice-writer-e-numerazione-non.html
 ---
 
 

@@ -11,6 +11,7 @@ image:
   placement: 3
   preview_only: false 
   caption: 'Non sequential pages'
+canonicalUrl: https://francopasut-en.blogspot.com/2025/08/libreoffice-writer-and-non-sequential.html
 ---
 
 

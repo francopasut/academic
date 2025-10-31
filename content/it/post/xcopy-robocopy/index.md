@@ -1,7 +1,6 @@
 ---
 title: "MS Windows: xcopy e robocopy con cenni a procedure batch ed rsync."
 date: 2025-05-23
-canonicalUrl: https://francopasut.blogspot.com/2025/05/ms-windows-xcopy-e-robocopy-con-cenni.html
 slug:  xcopy_robocopy_windowsv
 categories:
   - Blog

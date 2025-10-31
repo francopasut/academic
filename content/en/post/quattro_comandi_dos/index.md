@@ -43,7 +43,7 @@ The “small” disadvantage, on the other hand, is the need to memorize the fun
 
 However, this article is not specifically dedicated to the  Command Line.
 
-I have already addressed the topic of the Command Line in [a previous article of mine on this platform](https://francopasut-en.blogspot.com/2025/05/ms-windows-xcopy-and-robocopy-with.html#org32c3105) to which I refer for the introduction.
+I have already addressed the topic of the Command Line in [a previous article of mine on this platform](https://francopasut.netlify.app/post/xcopy_robocopy_windowsv/#a-short-introduction-to-the-command-line-in-ms-windows) to which I refer for the introduction.
 
 In this article, I will focus only on a few commands with some functional and historical notes.
 
@@ -207,7 +207,7 @@ Strangely enough, NO! The COPY command in the old MS-DOS did not have an option 
 
 To copy entire directories and subdirectories in MS-DOS, you had to use a separate command called XCOPY (eXtended COPY), which was specifically designed for this purpose.
 
-The XCOPY command is mentioned in my article “[MS Windows: xcopy and robocopy with references to batch procedures and rsync](https://francopasut-en.blogspot.com/2025/05/ms-windows-xcopy-and-robocopy-with.html)”.
+The XCOPY command is mentioned in my article “[MS Windows: xcopy and robocopy with references to batch procedures and rsync](https://francopasut.netlify.app/post/xcopy_robocopy_windowsv/)”.
 
 # 6. The “rm” command.
 

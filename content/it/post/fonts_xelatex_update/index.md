@@ -102,7 +102,7 @@ A questo punto occorrerebbe installare il *font* ma per fare questo occorre aver
 
 In mancanza, occorre richiamare il paragrafo [3](#3-nuovi-font-in-cartella-non-di-sistema) di questo articolo, collocando i font della famiglia in una cartella accessibile all'utente.
 
-Riprendendo la premessa contenuta nel paragrafo [3](#3-nuovi-font-in-cartella-non-di-sistema), riporto il  frammento di codice da inserire nel preambolo di un documento in XeLaTeX per utilizzare Aptos in una cartella personalizzate che, in questo specifico caso, è la seguente: *C:/Users/fpasut/AppData/Local/Microsoft/Windows/Fonts/*,
+Riprendendo la premessa contenuta nel paragrafo [3](#3-nuovi-font-in-cartella-non-di-sistema), riporto il  frammento  da inserire nel preambolo di un documento in XeLaTeX per utilizzare Aptos in una cartella personalizzata, come quella indicata nella prima riga del codice seguente:
 
     \setmainfont[Path = C:/Users/fpasut/AppData/Local/Microsoft/Windows/Fonts/,
     Extension = .ttf,

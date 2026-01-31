@@ -16,21 +16,14 @@ image:
 canonicalUrl: https://francopasut.blogspot.com/2026/01/osservazioni-personali-su-robocopy.html 
 ---
 
-
-# Indice
-
-- [Indice](#indice)
-- [Premessa](#premessa)
-- [Articolo precedente: breve confronto tra robocopy e rsync](#articolo-precedente-breve-confronto-tra-robocopy-e-rsync)
-- [Lentezza di rsync con WebDAV](#lentezza-di-rsync-con-webdav)
-- [Installazione di Rclone su Linux:  repository o sito ufficiale?](#installazione-di-rclone-su-linux--repository-o-sito-ufficiale)
-- [Configurazione di Rclone](#configurazione-di-rclone)
+- [1. Premessa](#1-premessa)
+- [2. Articolo precedente: breve confronto tra robocopy e rsync](#2-articolo-precedente-breve-confronto-tra-robocopy-e-rsync)
+- [3. Lentezza di rsync con WebDAV](#3-lentezza-di-rsync-con-webdav)
+- [4. Installazione di Rclone su Linux:  repository o sito ufficiale?](#4-installazione-di-rclone-su-linux--repository-o-sito-ufficiale)
+- [5. Configurazione di Rclone](#5-configurazione-di-rclone)
 
 
-
-<a id="orgbfd8cba"></a>
-
-# Premessa
+# 1. Premessa
 
 Robocopy, Rsync e Rclone sono tre ottimi strumenti per la sincronizzazione.
 
@@ -39,11 +32,9 @@ Il primo è un comando nativo di Windows 10 e 11. Il secondo è lo standard *de 
 Strutturalmente, mentre Robocopy e Rsync nascono per dischi locali o server, Rclone è specializzato nel parlare con i servizi Cloud (Google Drive, Dropbox, S3, OneDrive, NextCloud, ecc.)
 
 
-<a id="org65ae102"></a>
+# 2. Articolo precedente: breve confronto tra robocopy e rsync
 
-# Articolo precedente: breve confronto tra robocopy e rsync
-
-Ho dedicato al confronto tra *robocopy* e  *rsync*  un paragrafo di un  [mio articolo](https://francopasut.blogspot.com/2025/05/ms-windows-xcopy-e-robocopy-con-cenni.html#orgdf6ef60) al quale rimando.
+Ho dedicato al confronto tra *robocopy* e  *rsync*  un paragrafo di un  [mio articolo](https://francopasut.netlify.app/it/post/xcopy_robocopy_windowsv/#robocopy-e-rsync) al quale rimando.
 
 Riporto una sintesi del paragrafo.
 
@@ -57,9 +48,7 @@ Le loro caratteristiche comuni includono:
 -   Modalità Mirroring: Entrambi offrono la funzione "copia a specchio" (tramite il comando /MIR in Robocopy e &ndash;delete in Rsync), che allinea perfettamente la destinazione alla sorgente eliminando i file non più presenti nell'origine.
 
 
-<a id="org73a596a"></a>
-
-# Lentezza di rsync con WebDAV
+# 3. Lentezza di rsync con WebDAV
 
 Rsync è un ottimo sincronizzatore, con un set completo di opzioni.
 
@@ -82,9 +71,7 @@ Inoltre *Rclone*  funziona a prescindere dalla posizione in cui si trova il curs
 Di seguito riporto alcune indicazioni, derivanti direttamente dalle mie prove d'uso, per l'installazione, la configurazione e l'utilizzo di *Rclone*.
 
 
-<a id="org94ded4d"></a>
-
-# Installazione di Rclone su Linux:  repository o sito ufficiale?
+# 4. Installazione di Rclone su Linux:  repository o sito ufficiale?
 
 Nel mondo Linux, siamo abituati alla comodità dei gestori di pacchetti: che si tratti di APT su Debian e derivate, DNF su Fedora o Pacman su Arch, un semplice comando solitamente basta a risolvere tutto. Tuttavia, non sempre i repository ufficiali offrono la versione più aggiornata (e sicura) di un software.
 
@@ -109,9 +96,7 @@ il software è risultato aggiornato all'ultima versione stabile disponibile e tu
 Pertanto,  consiglio di installare Rclone direttamente tramite lo script ufficiale presente sulla [pagina di download del progetto](https://rclone.org/install/) oppure di utilizzare i pacchetti di distribuzioni più aggiornate, come Fedora o Arch.
 
 
-<a id="org76c60bd"></a>
-
-# Configurazione di Rclone
+# 5. Configurazione di Rclone
 
 Dopo l'installazione occorre procedere alla configurazione: si lancia `rclone config` e si percorre la seguente procedura guidata:
 

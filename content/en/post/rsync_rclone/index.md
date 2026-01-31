@@ -38,7 +38,7 @@ What sets it apart is its incredible versatility: it can "talk" to over 40 diffe
 
 # 2. Previous article: brief comparison between robocopy and rsync
 
-I dedicated a paragraph of [one of my articles](https://francopasut-en.blogspot.com/2025/05/ms-windows-xcopy-and-robocopy-with.html#org9f1c592) to which I refer,  to comparing *robocopy* and *rsync*.
+I dedicated a paragraph of [one of my articles](https://francopasut.netlify.app/post/xcopy_robocopy_windowsv/#robocopy-and-rsync) to which I refer,  to comparing *robocopy* and *rsync*.
 
 Here is a summary of that paragraph.
 

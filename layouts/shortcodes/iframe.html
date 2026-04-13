@@ -1,0 +1,6 @@
+{{ $pdf := resources.Get (.Get 0) }}
+{{ if $pdf }}
+  <iframe src="{{ $pdf.Permalink }}" width="100%" height="600px" style="border:none;"></iframe>
+{{ else }}
+  <p>File PDF non trovato: {{ .Get 0 }}</p>
+{{ end }}

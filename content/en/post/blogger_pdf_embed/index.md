@@ -1,5 +1,5 @@
 ---
-title: "Blog posts and PDFs that can be embedded, scrolled through, and downloaded"
+title: "Blogger posts and PDFs that can be embedded, scrolled through, and downloaded"
 date: 2026-04-11
 slug:  blogger_pdf_embed
 categories:

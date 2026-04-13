@@ -59,6 +59,7 @@ This change allows Google to display the PDF with a scroll bar.
 2.  Switch to HTML view (click “HTML” / “Edit HTML”) and paste code like this:
 
 ``` html
+    <div align="center">
       <iframe 
         src="https://drive.google.com/file/d/IL_TUO_ID/preview" 
         width="95%" 

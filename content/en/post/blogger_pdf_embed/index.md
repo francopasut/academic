@@ -80,7 +80,7 @@ Anyone who has read this article and tried to view the embedded document will fi
 
 The score was written  in LilyPond and is from  [Mutopia Project](https://www.mutopiaproject.org/).
 
-The embedded document can be downloaded and used to study the piece.\*\* 
+The embedded document can be downloaded and used to study the piece.
 
 {{<iframe "misto_musica_testo-en.pdf">}}
 

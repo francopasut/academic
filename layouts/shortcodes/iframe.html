@@ -1,19 +1,6 @@
-{{ $pdf := resources.Get (.Get 0) }}
-{{ if $pdf }}
-    {{ $absURL := $pdf.Permalink | absURL }}
-    <div class="pdf-container" style="position: relative; overflow: hidden; width: 100%; pt: 56.25%;">
-        <iframe 
-            src="https://docs.google.com/viewer?url={{ $absURL }}&embedded=true" 
-            width="100%" 
-            height="600px" 
-            style="border: none;">
-        </iframe>
-    </div>
-    <div style="text-align: center; margin-top: 10px;">
-        <a href="{{ $pdf.Permalink }}" class="link db fw6 ph3 pv2 mb2 white bg-black dim" target="_blank">
-            Apri PDF direttamente
-        </a>
-    </div>
-{{ else }}
-    <p style="color:red;">File non trovato in assets: {{ .Get 0 }}</p>
-{{ end }}
+<iframe 
+    src="https://docs.google.com/viewer?url={{ $pdf.Permalink | absURL }}&embedded=true" 
+    width="100%" 
+    height="600px" 
+    style="border:none;">
+</iframe>

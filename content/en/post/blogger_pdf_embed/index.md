@@ -84,7 +84,7 @@ The embedded document can be downloaded and used to study the piece.
 
 {{<iframe "misto_musica_testo-en.pdf">}}
 
-Simple link: {{< pdf-link “misto_musica_testo.pdf” “Analysis of Chopin's Nocturne No. 1” >}}
+Simple link: {{< pdf-link “misto_musica_testo-en.pdf” “Analysis of Chopin's Nocturne No. 1” >}}
 
 Thank you for your attention.
 

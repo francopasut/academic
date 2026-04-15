@@ -1,19 +1,11 @@
 {{ $pdf := resources.Get (.Get 0) }}
 {{ if $pdf }}
-    <div class="pdf-container">
-        <iframe 
-            src="{{ $pdf.Permalink }}" 
-            width="100%" 
-            height="600px" 
-            style="border:none;">
-        </iframe>
-        
-        <div style="text-align: center; margin-top: 10px;">
-            <a href="{{ $pdf.Permalink }}" target="_blank" style="text-decoration: none; background: #000; color: #fff; padding: 10px 20px; border-radius: 5px;">
-                Visualizza o Scarica PDF (Schermo Intero)
-            </a>
-        </div>
-    </div>
+    <iframe 
+        src="https://docs.google.com/viewer?url={{ $pdf.Permalink | absURL }}&embedded=true" 
+        width="100%" 
+        height="600px" 
+        style="border:none;">
+    </iframe>
 {{ else }}
-    <p style="color:red;">File non trovato: {{ .Get 0 }}</p>
+    <p style="color:red;">Errore: il file PDF "{{ .Get 0 }}" non è stato trovato nella cartella assets.</p>
 {{ end }}

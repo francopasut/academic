@@ -1,0 +1,6 @@
+{{- $file := resources.Get (.Get 0) -}}
+{{- if $file -}}
+    <a href="{{ $file.Permalink }}" target="_blank">{{ .Get 1 | default "Scarica il PDF" }}</a>
+{{- else -}}
+    <span style="color:red;">File PDF non trovato</span>
+{{- end -}}

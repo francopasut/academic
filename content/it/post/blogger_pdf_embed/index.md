@@ -82,4 +82,6 @@ Il documento incorporato può  essere scaricato ed utilizzato per lo studio del 
 
 {{<iframe "misto_musica_testo.pdf">}}
 
+Link semplice: {{< pdf-link "misto_musica_testo.pdf" "Analisi Notturno n. 1  di Chopin" >}}
+
 Grazie per l'attenzione.

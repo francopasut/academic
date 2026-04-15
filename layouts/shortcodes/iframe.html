@@ -1,6 +1,11 @@
-<iframe 
-    src="https://docs.google.com/viewer?url={{ $pdf.Permalink | absURL }}&embedded=true" 
-    width="100%" 
-    height="600px" 
-    style="border:none;">
-</iframe>
+{{ $pdf := resources.Get (.Get 0) }}
+{{ if $pdf }}
+    <iframe 
+        src="https://docs.google.com/viewer?url={{ $pdf.Permalink | absURL }}&embedded=true" 
+        width="100%" 
+        height="600px" 
+        style="border:none;">
+    </iframe>
+{{ else }}
+    <p style="color:red;">Errore: il file PDF "{{ .Get 0 }}" non è stato trovato nella cartella assets.</p>
+{{ end }}
